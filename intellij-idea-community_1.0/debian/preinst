@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /opt/
+
+## Download IntelliJ IDEA Community from the jetbrain servers
+wget https://download.jetbrains.com/idea/ideaIC-14.0.3.tar.gz
