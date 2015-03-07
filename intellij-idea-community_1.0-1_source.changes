@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 07 Mar 2015 19:35:50 +0100
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 1.0-1
+Distribution: utopic
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (1.0-1) utopic; urgency=low
+ .
+   * Initial release.
+Checksums-Sha1:
+ 61855bca534fa9a088911b4209832d84b7e80012 1443 intellij-idea-community_1.0-1.dsc
+ 141a7d1cd6e576ca1f579df061544f66801c736e 8340 intellij-idea-community_1.0.orig.tar.gz
+ e1532518819316a4d2154628263ffddbbacd1111 5312 intellij-idea-community_1.0-1.debian.tar.xz
+Checksums-Sha256:
+ bf57fc84f1d3057f99647afd73ca1a1b51beb44928402d43e7b6c3955e340590 1443 intellij-idea-community_1.0-1.dsc
+ bca2d6ceb39620827b09af05fd7240f2f99a951f67ec603553328dc1e7135c9d 8340 intellij-idea-community_1.0.orig.tar.gz
+ 2a67854018ee5c502af9c7c5b9b051fe939f0bff615432a145c2922bcc2abaea 5312 intellij-idea-community_1.0-1.debian.tar.xz
+Files:
+ 715722d4006bdae1d99e94fc1b82f0ae 1443 devel optional intellij-idea-community_1.0-1.dsc
+ 3d03e9be39695d0344b22975f4790744 8340 devel optional intellij-idea-community_1.0.orig.tar.gz
+ 2392194108e9afec1a1c75ba97375a30 5312 devel optional intellij-idea-community_1.0-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJU+27lAAoJEGk4doX6K5n2Ig0H/0Jk056wBLJ/0Mod5PA72XWN
+wZt0RGfBEa2xTkRY4kow+aQbWj82bfv7VaLE+501Xr+XicAxU0+dtvJfpKd7sAeS
+51LM14iOrUxp7p0R3yz9kNxz0nVJnLsfiyUvVYfp+sR6VXzr2cJSvKXA4c7/TQBH
+1a46kLxz3W51Sc04bd7ufixcEEoFkLrYXmkeDl/9cTuE7KfGLRp26DKrIrxhBM/+
+YBo69oz/pulVnSchMuCJtPENb9JVwXnGozPCvm7/OtwMS7ayAf2MbVL20TSHEo2n
+Ul0ENNKvhpWSElZL8j1tDOzeLz9SmnCzanbAAUkIjrsM1DSz8/hgwVd2senuXbI=
+=ihhF
+-----END PGP SIGNATURE-----

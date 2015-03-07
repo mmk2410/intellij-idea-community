@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Format: 1.8
 Date: Sat, 07 Mar 2015 19:35:50 +0100
 Source: intellij-idea-community
@@ -15,17 +18,29 @@ Changes:
  .
    * Initial release.
 Checksums-Sha1:
- 3736361f976a8d64916108bd729e5e36f9b31ca4 922 intellij-idea-community_1.0-1.dsc
+ 0b9874868ed232c3404fb67c933a9601b34ce8ea 1443 intellij-idea-community_1.0-1.dsc
  141a7d1cd6e576ca1f579df061544f66801c736e 8340 intellij-idea-community_1.0.orig.tar.gz
- 1a49fbd44c929f6ed261854c2d9267012c428f04 5316 intellij-idea-community_1.0-1.debian.tar.xz
- 24d45702bbb3a3851f86ef51be442ff42559b9b7 14108 intellij-idea-community_1.0-1_all.deb
+ e4acd60d5bb968c42fcb05125754b954a7f6c17a 5312 intellij-idea-community_1.0-1.debian.tar.xz
+ d03cc29285124576f1fa8599704a636e70b1d6ba 14106 intellij-idea-community_1.0-1_all.deb
 Checksums-Sha256:
- 32a190ffe291c0adfda60596176377e897796063eb4e9eefc9cf9e590c9f5987 922 intellij-idea-community_1.0-1.dsc
+ 740e4369f47861133ef5e09fb56f65b2aa6af0909521229349d3108f4172450d 1443 intellij-idea-community_1.0-1.dsc
  bca2d6ceb39620827b09af05fd7240f2f99a951f67ec603553328dc1e7135c9d 8340 intellij-idea-community_1.0.orig.tar.gz
- b995ef9c8d4f09e3fcd1c5c8f6888f92aa1e13ea1391496010d7d6b3d419ad59 5316 intellij-idea-community_1.0-1.debian.tar.xz
- 4d87d6beaffe9bbb99129f6349a8ca3b99be32178e59f69aaa5c5040a6d139a9 14108 intellij-idea-community_1.0-1_all.deb
+ 0d813bf43611e82f8a5f518c457707551d6ca5f03a2b02a73bdaa27e6f9f70f7 5312 intellij-idea-community_1.0-1.debian.tar.xz
+ 97e4778dec9c104d51babd581f5ec538aa94d697f23004d0d1f17742a48c09b3 14106 intellij-idea-community_1.0-1_all.deb
 Files:
- 3da96a11672dc8585f263faae9cfec9e 14108 devel optional intellij-idea-community_1.0-1_all.deb
- 956b3386b096948718b25bcd49600d1f 922 devel optional intellij-idea-community_1.0-1.dsc
+ 07819d16ba0704e62a06630ae4c82d6f 14106 devel optional intellij-idea-community_1.0-1_all.deb
+ c3d858a468aa3867fd8f3472ae1d9dc8 1443 devel optional intellij-idea-community_1.0-1.dsc
  3d03e9be39695d0344b22975f4790744 8340 devel optional intellij-idea-community_1.0.orig.tar.gz
- 8adb9451156e6c1cb5dcbbe079800042 5316 devel optional intellij-idea-community_1.0-1.debian.tar.xz
+ 4e4b4672b63cd502bd018ea181cc4e56 5312 devel optional intellij-idea-community_1.0-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJU+2z1AAoJEGk4doX6K5n2rhEH/jzXhAFrovTabWOwMrJtLvZt
+QI1q69vSBb4h7wlVwQEh/oXF7/CAFj5T/DcwJX3mH/rvS8mu3bEgztzMCpLd9neZ
+B6R5/52eG9YJnRJF18ywz8oioTAkF2kcY6dEyI9uBMgddXMJ8cMCeKhUZqceST5Z
++oSXVo2h+qTkaHzXaWjthV6EFoekXePIv62wz7AAV46GYwusgzZRk9sDeCtAlgzP
+wFfV+L9EYc+0oKYNinabKEH/3lrn6IJkUIUNHmmRsuR6PM7soJC5QNuVMWuLOsPV
+W+SVK0/hVeVqImIF2xyaC73UwoGHIK95KiT+P3G8yJ/8aUrM0BUxKf9YgwMyxLY=
+=btro
+-----END PGP SIGNATURE-----
