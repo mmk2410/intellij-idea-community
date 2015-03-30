@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 30 Mar 2015 08:14:50 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 1.1-1
+Distribution: vivid
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (1.1-1) vivid; urgency=low
+ .
+   * Upstream Version 14.1
+Checksums-Sha1:
+ 72b2a1363893bc109300fe2dfa0fa478d3b2c470 1789 intellij-idea-community_1.1-1.dsc
+ 141a7d1cd6e576ca1f579df061544f66801c736e 8340 intellij-idea-community_1.1.orig.tar.gz
+ 90713bcf820f0a9b963e72ad96fe43dc43f69b82 5316 intellij-idea-community_1.1-1.debian.tar.xz
+Checksums-Sha256:
+ e61648e1ffcb270e3c9d2e3e7e6a5cbb3a48494cbe1457755f12e8d66edee2fb 1789 intellij-idea-community_1.1-1.dsc
+ bca2d6ceb39620827b09af05fd7240f2f99a951f67ec603553328dc1e7135c9d 8340 intellij-idea-community_1.1.orig.tar.gz
+ d425520247facc4696a822cb68d14a782fa2d5757e5341c05a5f7c5f04e198de 5316 intellij-idea-community_1.1-1.debian.tar.xz
+Files:
+ a3d6b34437b7c6f88425ca23f4102cd5 1789 devel optional intellij-idea-community_1.1-1.dsc
+ 3d03e9be39695d0344b22975f4790744 8340 devel optional intellij-idea-community_1.1.orig.tar.gz
+ 00f9f850dd7a92f36f632d969ad47d71 5316 devel optional intellij-idea-community_1.1-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJVGRF/AAoJEOP581wuA6OHGp8P/iRtAkN6qIAh6lgNVB3+8HG9
+7GLz0UlBEA1qAPgmYFaWnk5PrZVMJTwK0j8Zxy8EUKSHRaeKqno8IzG192jnK4iz
+DEdSgh7qTYnmzJnGuYWMP0PTcjp3XcvzXdY0uGKrKbFNMbPdHu0ThulQnQDjJDTe
+Pvy+LlsqjvcEQvEiSe7ZpqqU4hhZ3kI4Pe4PA/Tnp/bSLyhbF3WJye1T986XS8v2
+q/gvnOrVPiLyVoYetBUTw0o0RI0JBIILsbhXP6zNG2O0+yoOvFOixswHMIjJ5J5Q
+xOkIFUVRGlpmcsYMUolRmR2zoU5oi2H29tq3hiWusStlhOLu+M43ez71GpgmdeHa
+J1j+1Z8scSzd07/kYQLQaxnFhh65TbzjPQhaz9zabeAIQRzVPCePakxIcJ1MLm6W
+fxAXZu7LqsCyIf6tn4Q1gP8kqtDVIYdafqTuiO2kyzEG4koO8/17KUCW5rhQMPOG
+WziVzuNnhTGUq+XMka+Blhoq3ehBxeb8BaNQkOl432ZGQW3iHH6ljMWoEo/hwOii
+qxPDwkTaiajvH1Vv9l9GowXZzuiONGgkv8qoXwrL1l5p31m8Ns1f5+dn8j3UA8Q8
+pz3V5Jxlv4XbaOAbU4m8fstupldb5wOanzxxOplfjNnViMf3mA7PkNvq+/qs1gKk
++ZUZCNT+xH7hIk5ipL6S
+=7c1z
+-----END PGP SIGNATURE-----
