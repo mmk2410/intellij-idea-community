@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thur, 02 Apr 2015 12:50:50 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 14.1.1-1
+Distribution: vivid
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (14.1.1-1) vivid; urgency=low
+ .
+   * Upstream Version 14.1.1
+Checksums-Sha1:
+ 76adc2cd227e408563a8b593c5d62cf0b1f3b69e 1810 intellij-idea-community_14.1.1-1.dsc
+ 141a7d1cd6e576ca1f579df061544f66801c736e 8340 intellij-idea-community_14.1.1.orig.tar.gz
+ 7aad5cffeb61c2d657d1b73c8bb84f6fe4f0f843 5344 intellij-idea-community_14.1.1-1.debian.tar.xz
+Checksums-Sha256:
+ 7d9e3319c7154c5ca25bda843882d11c2cce385be0433cfd25989a525884ea1f 1810 intellij-idea-community_14.1.1-1.dsc
+ bca2d6ceb39620827b09af05fd7240f2f99a951f67ec603553328dc1e7135c9d 8340 intellij-idea-community_14.1.1.orig.tar.gz
+ 3b33c2220ffa9ef47f1e8c54f558e39b278c1a31e6c33eccd0b3fed9078c476b 5344 intellij-idea-community_14.1.1-1.debian.tar.xz
+Files:
+ d83c3d9e5061cafcfb8e5ba2d54dfa33 1810 devel optional intellij-idea-community_14.1.1-1.dsc
+ 3d03e9be39695d0344b22975f4790744 8340 devel optional intellij-idea-community_14.1.1.orig.tar.gz
+ 7c6724cebd39008f1cd54a2a33965d7d 5344 devel optional intellij-idea-community_14.1.1-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJVHT9LAAoJEOP581wuA6OHju0P/i0g9d+sG4QQiRALuACIj5Fr
+2msptPkFDFy/Xe8++xZ5Tx41fj/VFXP2djbZwwBJrjXFp3cl3kRihiXk4Sypz4za
+NqTCmMnJcPfD+xmGWicHw1vQhHQ3OLh7Qnb8TgPRjNgUQMlHjX2MAhx9BnycQpY4
+ugsN5LzU5BtVJhFFCTV/nmi0hfHMeOid7/zTYmY8SMUDvZjXocgaGIg6Hkn2V23J
+HJdYdv8CQyiQKuM41V7GX+uHhU5tV1JfQerTXP6FHFjx4hAD6eFdwSea0oBv4NeN
+B9S33kYmfeOZCso/sKkNJRfkxoKZX7neOIHRz2UipMK3IoVjTg9vb+ULiZ2Gpa/0
+0kuezONceGUrGzXk6aLWtbWeLC/dFmeMQImxiQYRgeZhjh7vngQeTbF0VOaQ+q2D
+B/DdPPt0adoF47j5IM2Jb+L1EidM+m2IzRk7rrHpH9XhsRNs7GEMr2S//hkWaehl
+Fvzd4IXWzEMqjxElL+Dpin8BO+s/OvxG0nnggacgzvwFC6ZKMJuMC8hJEX3IsX+f
+eWKa34O+dWSL+drtDSXHroqYrb1JgtP4RK1S/ltzSiil9KCoI8mgemUPEKmFjj/K
+P5UYjFrw8ez+Imo0gFsoBAUQe5b0lv4MGRUYMSv+yx/tA+50+pIzzQg9JXWwUa+y
+UHJcSNlCEXCg1g0U/opk
+=7qsJ
+-----END PGP SIGNATURE-----
