@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 26 Apr 2015 10:31:50 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source all
+Version: 14.1.2-1
+Distribution: vivid
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (14.1.2-1) vivid; urgency=low
+ .
+   * Upstream Vesion 14.1.2
+Checksums-Sha1:
+ ba8c12aebc998e7c4567f2c0787123271d43215c 943 intellij-idea-community_14.1.2-1.dsc
+ 141a7d1cd6e576ca1f579df061544f66801c736e 8340 intellij-idea-community_14.1.2.orig.tar.gz
+ afc2a5125bdc7f956bf9dd788b40d327a79d5046 5368 intellij-idea-community_14.1.2-1.debian.tar.xz
+ c35c16aa130e9d114c777337910313efe1c44a28 14220 intellij-idea-community_14.1.2-1_all.deb
+Checksums-Sha256:
+ ca7545413fb82e356534e1922a2302ce085b3a4f0f11397b0fd2b4bab1265e4f 943 intellij-idea-community_14.1.2-1.dsc
+ bca2d6ceb39620827b09af05fd7240f2f99a951f67ec603553328dc1e7135c9d 8340 intellij-idea-community_14.1.2.orig.tar.gz
+ 3b915c37d399462713caf2d1719e473d944e8295a78275d1713654846f124122 5368 intellij-idea-community_14.1.2-1.debian.tar.xz
+ c627cc94626e3c567fd4717f926876c5a34e0ebe02e9ca6ef6077eab71e7e342 14220 intellij-idea-community_14.1.2-1_all.deb
+Files:
+ 2406912898346d68dd5d40078e8e5c43 943 devel optional intellij-idea-community_14.1.2-1.dsc
+ 3d03e9be39695d0344b22975f4790744 8340 devel optional intellij-idea-community_14.1.2.orig.tar.gz
+ 9dbf3199a9e739a3847b31a9d1a83b31 5368 devel optional intellij-idea-community_14.1.2-1.debian.tar.xz
+ 41246effbb617cafad98c34700770e8d 14220 devel optional intellij-idea-community_14.1.2-1_all.deb

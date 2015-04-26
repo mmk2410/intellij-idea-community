@@ -1,20 +1,20 @@
  dpkg-buildpackage -rfakeroot -D -us -uc
 dpkg-buildpackage: source package intellij-idea-community
-dpkg-buildpackage: source version 14.1.1-1
+dpkg-buildpackage: source version 14.1.2-1
 dpkg-buildpackage: source distribution vivid
 dpkg-buildpackage: source changed by Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
- dpkg-source --before-build intellij-idea-community_14.1.1
+ dpkg-source --before-build intellij-idea-community_14.1.2
 dpkg-buildpackage: host architecture amd64
  fakeroot debian/rules clean
 dh clean
    dh_testdir
    dh_auto_clean
    dh_clean
- dpkg-source -b intellij-idea-community_14.1.1
+ dpkg-source -b intellij-idea-community_14.1.2
 dpkg-source: info: using source format `3.0 (quilt)'
-dpkg-source: info: building intellij-idea-community using existing ./intellij-idea-community_14.1.1.orig.tar.gz
-dpkg-source: info: building intellij-idea-community in intellij-idea-community_14.1.1-1.debian.tar.xz
-dpkg-source: info: building intellij-idea-community in intellij-idea-community_14.1.1-1.dsc
+dpkg-source: info: building intellij-idea-community using existing ./intellij-idea-community_14.1.2.orig.tar.gz
+dpkg-source: info: building intellij-idea-community in intellij-idea-community_14.1.2-1.debian.tar.xz
+dpkg-source: info: building intellij-idea-community in intellij-idea-community_14.1.2-1.dsc
  debian/rules build
 dh build
    dh_testdir
@@ -38,10 +38,10 @@ dh binary
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package `intellij-idea-community' in `../intellij-idea-community_14.1.1-1_all.deb'.
- dpkg-genchanges  >../intellij-idea-community_14.1.1-1_amd64.changes
+dpkg-deb: building package `intellij-idea-community' in `../intellij-idea-community_14.1.2-1_all.deb'.
+ dpkg-genchanges  >../intellij-idea-community_14.1.2-1_amd64.changes
 dpkg-genchanges: including full source code in upload
- dpkg-source --after-build intellij-idea-community_14.1.1
+ dpkg-source --after-build intellij-idea-community_14.1.2
 dpkg-buildpackage: full upload (original source is included)
 Now running lintian...
 W: intellij-idea-community source: maintainer-script-lacks-debhelper-token debian/preinst
@@ -50,7 +50,6 @@ W: intellij-idea-community source: maintainer-script-lacks-debhelper-token debia
 W: intellij-idea-community source: package-needs-versioned-debhelper-build-depends 9
 W: intellij-idea-community source: syntax-error-in-dep5-copyright line 18: Continuation line outside a paragraph (maybe line 17 should be " .").
 W: intellij-idea-community source: out-of-date-standards-version 3.9.5 (current is 3.9.6)
-W: intellij-idea-community: debian-changelog-has-wrong-weekday 2015-04-02 is a Thursday
 E: intellij-idea-community: copyright-file-contains-full-apache-2-license
 E: intellij-idea-community: description-is-pkg-name IntelliJ IDEA Community
 W: intellij-idea-community: script-with-language-extension usr/bin/intellij-idea-community.sh

@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 26 Apr 2015 10:31:50 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 14.1.2-1
+Distribution: vivid
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (14.1.2-1) vivid; urgency=low
+ .
+   * Upstream Vesion 14.1.2
+Checksums-Sha1:
+ f3ec7e736deaf9523efb097b823d8331e15f477d 1810 intellij-idea-community_14.1.2-1.dsc
+ 141a7d1cd6e576ca1f579df061544f66801c736e 8340 intellij-idea-community_14.1.2.orig.tar.gz
+ 1f6ff761c44da97eac7afcbaf4b3ff485ad9e835 5368 intellij-idea-community_14.1.2-1.debian.tar.xz
+Checksums-Sha256:
+ 2b5a32e561c99841f89540e629afac55d8885d6b2bf6085fee57c19177c32e0c 1810 intellij-idea-community_14.1.2-1.dsc
+ bca2d6ceb39620827b09af05fd7240f2f99a951f67ec603553328dc1e7135c9d 8340 intellij-idea-community_14.1.2.orig.tar.gz
+ 65ecdb948578144b794cff19c85485080a7b92fd3f6454b239b71717887277cc 5368 intellij-idea-community_14.1.2-1.debian.tar.xz
+Files:
+ b99cd912c7aac68c7f9d3ea283d19508 1810 devel optional intellij-idea-community_14.1.2-1.dsc
+ 3d03e9be39695d0344b22975f4790744 8340 devel optional intellij-idea-community_14.1.2.orig.tar.gz
+ b32854d9daac44ac130229537f43e9b9 5368 devel optional intellij-idea-community_14.1.2-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJVPL8lAAoJEOP581wuA6OH9/8P/Av5b4yY3T0zfZd+urSqaUek
+g0Gr+86I7I+FAdoQSzNhSs7pwmWqtxfUyA2CuQf2MoNSUt+pVl01k7PMEzVr7W8l
+38K+uR/oE/0ByaYqLUEanzXWXxf8pIpTfJLfjTefKO+xvptXS+5tBTtgMvZId2i4
+aoEbl2pdQVSIBdhQcDT4NlrULaNzabmg4APuqVeJCrH874mTG+RRJw1aTeS3wN8c
+fq9ZTmFUMhpd76wcLoyHdcATkDYVosIOC7I57HnTWQd2sYuurtkjaLMmw+LnBhJy
+rkTN5ht+t0sIzWysrA2YN6xHWbswbsDmrC5S2jTj5m3TLRjo5cNSWN9GZlrYlT00
+ylhsEsjGyXar1T1wJ/g82erCm06TJ73XKs38hcjxSVGJE2+WPoWWaBG1z6T0SMUa
+K2EsRkCpXU6Y20HLJ85i/N0/96UVQKQ5/UJrmzgDIfqtGkD57uFvq4FFWeE+mg5p
+OcmjaS3fBkhYT/O8unITjgJJR3/EDyjzbFeTtjiXS1l26QmAbszCmIPCeLDfuTbn
+qGfMaie9kqZZBW8YfEp5Cnwabbguq9HIyDQVnwflvEhaBhAp3mukZpOkIcGQkAV1
+/HA9XsHSfohwFqLFmdRxaiHk2bJ9/0V8x1bK7T6kMAqEXW9Gw/v3zCHvCod0ixkZ
+32RUTnlkj9S2fMIQpPfl
+=TgiS
+-----END PGP SIGNATURE-----
