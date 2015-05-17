@@ -10,3 +10,17 @@ The latest upstream version is 14.1.3 which is included in the package version 1
 `sudo apt-get update`
 
 `sudo apt-get install intellij-idea-community`
+
+## FAQ
+
+**Q:** How do I enable HiDPI support?
+
+**A:** You have to add
+
+`-Dhidpi=true`
+
+to these files:
+
+`/opt/intellij-idea-community/bin/idea.vmoptions`
+
+`/opt/intellij-idea-community/bin/idea64.vmoptions`
