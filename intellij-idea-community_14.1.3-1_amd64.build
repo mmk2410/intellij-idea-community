@@ -1,20 +1,20 @@
  dpkg-buildpackage -rfakeroot -D -us -uc
 dpkg-buildpackage: source package intellij-idea-community
-dpkg-buildpackage: source version 14.1.2-1
+dpkg-buildpackage: source version 14.1.3-1
 dpkg-buildpackage: source distribution vivid
 dpkg-buildpackage: source changed by Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
- dpkg-source --before-build intellij-idea-community_14.1.2
+ dpkg-source --before-build intellij-idea-community_14.1.3
 dpkg-buildpackage: host architecture amd64
  fakeroot debian/rules clean
 dh clean
    dh_testdir
    dh_auto_clean
    dh_clean
- dpkg-source -b intellij-idea-community_14.1.2
+ dpkg-source -b intellij-idea-community_14.1.3
 dpkg-source: info: using source format `3.0 (quilt)'
-dpkg-source: info: building intellij-idea-community using existing ./intellij-idea-community_14.1.2.orig.tar.gz
-dpkg-source: info: building intellij-idea-community in intellij-idea-community_14.1.2-1.debian.tar.xz
-dpkg-source: info: building intellij-idea-community in intellij-idea-community_14.1.2-1.dsc
+dpkg-source: info: building intellij-idea-community using existing ./intellij-idea-community_14.1.3.orig.tar.gz
+dpkg-source: info: building intellij-idea-community in intellij-idea-community_14.1.3-1.debian.tar.xz
+dpkg-source: info: building intellij-idea-community in intellij-idea-community_14.1.3-1.dsc
  debian/rules build
 dh build
    dh_testdir
@@ -38,10 +38,10 @@ dh binary
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package `intellij-idea-community' in `../intellij-idea-community_14.1.2-1_all.deb'.
- dpkg-genchanges  >../intellij-idea-community_14.1.2-1_amd64.changes
+dpkg-deb: building package `intellij-idea-community' in `../intellij-idea-community_14.1.3-1_all.deb'.
+ dpkg-genchanges  >../intellij-idea-community_14.1.3-1_amd64.changes
 dpkg-genchanges: including full source code in upload
- dpkg-source --after-build intellij-idea-community_14.1.2
+ dpkg-source --after-build intellij-idea-community_14.1.3
 dpkg-buildpackage: full upload (original source is included)
 Now running lintian...
 W: intellij-idea-community source: maintainer-script-lacks-debhelper-token debian/preinst
