@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 06 Nov 2015 14:35:50 +0100
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source all
+Version: 15.0.0-1
+Distribution: wily
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (15.0.0-1) wily; urgency=low
+ .
+   * Upstream Version 15.0
+Checksums-Sha1:
+ e8db9fb63565d1cc1677e13285ae7adaf4e34df6 943 intellij-idea-community_15.0.0-1.dsc
+ 75c05d65ed50236eeb9d4cd73c8f742879436992 8351 intellij-idea-community_15.0.0.orig.tar.gz
+ af7d6b1da212c3f6facbf20f69b877f93982ff21 5424 intellij-idea-community_15.0.0-1.debian.tar.xz
+ 85df4c0f590efa3b1eb53af5e28819cdaed3d45a 14192 intellij-idea-community_15.0.0-1_all.deb
+Checksums-Sha256:
+ 45aff0032a61a0ebb2fc57b596a899f6cc22ea3fe2e69b82c271fbf5a9197716 943 intellij-idea-community_15.0.0-1.dsc
+ 164782a4ee88a9ccb3b959700168905af586d091826022e2a63a25cb09aa57b7 8351 intellij-idea-community_15.0.0.orig.tar.gz
+ a5083f49466f065e739a9c0832e6bb494c6034e8188427a4fc3f5f6eaedc156b 5424 intellij-idea-community_15.0.0-1.debian.tar.xz
+ eead875267d6f2f2552d403b5caa7ffcfa5dec6717ea27a89ccc3f8a056267bc 14192 intellij-idea-community_15.0.0-1_all.deb
+Files:
+ 4e253910cc1f8ce22cd51320b46dfb8c 943 devel optional intellij-idea-community_15.0.0-1.dsc
+ 8039367322aa89bb252fbcef927c374d 8351 devel optional intellij-idea-community_15.0.0.orig.tar.gz
+ afbfbda405cae2a8cee638b14252395f 5424 devel optional intellij-idea-community_15.0.0-1.debian.tar.xz
+ 493b56aa555dcf177cf343c0af37af5e 14192 devel optional intellij-idea-community_15.0.0-1_all.deb

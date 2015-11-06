@@ -1,3 +1,9 @@
+intellij-idea-community (15.0.0-1) wily; urgency=low
+
+  * Upstream Version 15.0
+
+ -- Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 06 Nov 2015 14:35:50 +0100
+
 intellij-idea-community (14.1.4-1) vivid; urgency=low
 
   * Upstream Version 14.1.4

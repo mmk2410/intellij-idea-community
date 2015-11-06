@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 06 Nov 2015 14:35:50 +0100
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 15.0.0-1
+Distribution: wily
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (15.0.0-1) wily; urgency=low
+ .
+   * Upstream Version 15.0
+Checksums-Sha1:
+ 52f860e089f317fedf3f0d2007582eb7f5ec1ea8 1810 intellij-idea-community_15.0.0-1.dsc
+ 75c05d65ed50236eeb9d4cd73c8f742879436992 8351 intellij-idea-community_15.0.0.orig.tar.gz
+ 43d472c45ad6d98d8fba185d6349d84c5f7fb884 5424 intellij-idea-community_15.0.0-1.debian.tar.xz
+Checksums-Sha256:
+ 15a4d023651b161961f35fb5b2f2d7e3c0471eae8ea67ae87a85887530edd7ce 1810 intellij-idea-community_15.0.0-1.dsc
+ 164782a4ee88a9ccb3b959700168905af586d091826022e2a63a25cb09aa57b7 8351 intellij-idea-community_15.0.0.orig.tar.gz
+ 654b8c95a1c13ab9388304db0d071db72d34b3f21cbd32e6fdaec0e785228d68 5424 intellij-idea-community_15.0.0-1.debian.tar.xz
+Files:
+ b9785bd69516dc74d438e0a1e9d7a731 1810 devel optional intellij-idea-community_15.0.0-1.dsc
+ 8039367322aa89bb252fbcef927c374d 8351 devel optional intellij-idea-community_15.0.0.orig.tar.gz
+ a9bfc7ea189aa0300782f7593f7c8b22 5424 devel optional intellij-idea-community_15.0.0-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJWPLGZAAoJEOP581wuA6OHXt8QAKtDJ8Ix/vzdUbM611+NrJg7
+oo3/0X8QRbZrsefZc6khmthU8wpAnPXnqpNPMCwXVY35mpVxrPnsrx7Yrh5bqySp
+xgP7+Nct/mdVM5eZ1Lbt16Hanlf1UZgi8F1PG5uwt5cDBMjBEkelhSf0sfoqYcYY
+2nZ1J5b93O6Uq9ilx/ojhOUxjL3ju+QeQI0HV7QADjWRDSQEBB5RhavlhDluc54Z
+8wHqHdHaIrl67kQRL2o1MdIrQTTJRANkn8t9QBJoHBOxUuSbK4Ui0PXr7c/cW9vq
+Tb1S4Edol0Ed7/KEfF9Wv7Me6CxXatwXQdbGIX0035kEWFRv5xHYq6hKYTwn+58f
+zZdfkDiiS09rEraY6ngtTGqwGgUvi4W9gKoenJFOmwlUEGaU9nVz0AWBXvdV0p6A
+WpordNfhvSEcIdgxzWuOi5JP7GkUnSvCRy3NLj5xwec1/mkyNnVqRHzRjPoWV0cn
+x7oqnM/A/2k/07iAV9rfX7Wl0kLMAB5sBjwIZoXk9LLKB2+nNb2wRPmtONZIJuVu
+cNBqnsdWeMeZpCWTMwN8Y4H8m6d/icwtLhjspvzg3TZyg+h4g0mLD9KYR1JR4+N+
+7A/2v58bbT8khMbiuT6CCrU1A5iCUEjkQhw1esDBKGdvWXLKDBlTG6we7IqKVnaG
+AdjzQZqLg1oOOHWFo5rq
+=N0LS
+-----END PGP SIGNATURE-----
