@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 21 Mar 2016 17:44:50 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 2016.1-1
+Distribution: wily
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (2016.1-1) wily; urgency=low
+ .
+   * Upstream Version 2016.1
+Checksums-Sha1:
+ 8e4119f3bfbf3d8af9c135f06127dba6061fa680 1810 intellij-idea-community_2016.1-1.dsc
+ b7143983d93119247d8f6b8b3732e8dfe6cdfb1e 5634 intellij-idea-community_2016.1.orig.tar.gz
+ 79d01b8e394253b797ec800aec370ea8e64af88f 5528 intellij-idea-community_2016.1-1.debian.tar.xz
+Checksums-Sha256:
+ c57ebc520073559b335189b98be572637b370183c44d0c956b77a8090e175da5 1810 intellij-idea-community_2016.1-1.dsc
+ 783812487dc41c6da1ef5a9ef3f8b12eedaa4e77ddcc6a60446e6cd1343b5815 5634 intellij-idea-community_2016.1.orig.tar.gz
+ 34429408582e54ba61c69581776560ea3867648926a1d398d1a905fa1804cfb7 5528 intellij-idea-community_2016.1-1.debian.tar.xz
+Files:
+ 341d919a13c7c848d0341d066aee1d27 1810 devel optional intellij-idea-community_2016.1-1.dsc
+ 78fdbf05cfd274f26288299952610e6b 5634 devel optional intellij-idea-community_2016.1.orig.tar.gz
+ 35f6a605f8b95a6ffad5f8bedd25ff25 5528 devel optional intellij-idea-community_2016.1-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJW8CYuAAoJECuF2UqwCcGYmMEQALz5ivx0FQZyn7m475GkAcC7
+xjPUfUrKkPqlw6XCioiU/lekI5g33hzX0rfyqLnhUEgxWZfrKj/lqMZ5osVFJuTW
+9M9UaWI97xUr4+uePzMqKMwgu+j/F8M78vqikh0yvIOKW9VKQcUT9NeyoeuoISld
+Gokn+muTFEKDGYAh7iRB5cVLoW1PaoYcpD0SIQww+6+Xt6J7Nr9Hn14Bsw1ZFhwv
+DbLW3Mq9z0srHvtI+IAT7PslBz9JEBz1NCeQNIEqvuyXDAQAJ/6p9EOhKdUmjPru
+VdCiEJI7ptT3+pDxnr7c7fy8HI0QQlVte5I6ABJBzPUYRQ5/euGGR3fkKwon9Ns1
+Foh7QgAiCP8+ONQfUDGioRivI3hg5ezIeqQZ1xVAnbrnZW8c42jiJViSigGaGsZo
+xkx9h8wSpFkjZHVry6II3+XD8NCfiCHG47y/6OkO9dzccA7vAX+DWJtAMGYOPZBG
+eIgHvhzlc5lATJxWj1Nmd5cg3mhevwWN8R9bAGvHt7c6BjCqsShYEAayPvXcJ3Dv
+r2K0+9yHO45EZ2u8UN4dn3o4m8cJDlnKFYmzLB3HASW24EFxU9uaQDGjqr+8kvws
+6s9JEnzhrLFZg9B1wdaqWL2xS2pl144LwMfsYoADWtH767HMioWjtnZ0OXuqkpUL
+eKRy8nZ51PRZnCEVsgWQ
+=Ibdl
+-----END PGP SIGNATURE-----

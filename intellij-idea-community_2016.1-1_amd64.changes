@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 21 Mar 2016 17:44:50 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source all
+Version: 2016.1-1
+Distribution: wily
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (2016.1-1) wily; urgency=low
+ .
+   * Upstream Version 2016.1
+Checksums-Sha1:
+ b9d88912b31a1a308d07d1f9b88d7dfadb60768f 943 intellij-idea-community_2016.1-1.dsc
+ b7143983d93119247d8f6b8b3732e8dfe6cdfb1e 5634 intellij-idea-community_2016.1.orig.tar.gz
+ 4a58795b1e6ebc01981a84ad64950299fb57a930 5524 intellij-idea-community_2016.1-1.debian.tar.xz
+ ad3b21b67da7a60bf25ce0683d3f9f86dc29074c 11614 intellij-idea-community_2016.1-1_all.deb
+Checksums-Sha256:
+ 8f1e920efe242255f00637052ed08bb3bca8996e0c7c8dcae56f8e28b5a3ae8c 943 intellij-idea-community_2016.1-1.dsc
+ 783812487dc41c6da1ef5a9ef3f8b12eedaa4e77ddcc6a60446e6cd1343b5815 5634 intellij-idea-community_2016.1.orig.tar.gz
+ f0f6748ba19489aded6d503ba45be4c664782f2603389ab1146138e0be5151f9 5524 intellij-idea-community_2016.1-1.debian.tar.xz
+ 2baa9b456d92ef1387b66c0133834a6e88581b81130bb3cc277dd9373b63da0b 11614 intellij-idea-community_2016.1-1_all.deb
+Files:
+ a469c46e939b1ef54ef6e68dc5ca582d 943 devel optional intellij-idea-community_2016.1-1.dsc
+ 78fdbf05cfd274f26288299952610e6b 5634 devel optional intellij-idea-community_2016.1.orig.tar.gz
+ bb1d937222af24159f3b736c8ecd9589 5524 devel optional intellij-idea-community_2016.1-1.debian.tar.xz
+ 8cd711e171710a9125b6cfcabcddbe33 11614 devel optional intellij-idea-community_2016.1-1_all.deb
