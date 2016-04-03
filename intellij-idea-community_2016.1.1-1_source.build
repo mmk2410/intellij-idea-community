@@ -1,0 +1,27 @@
+ dpkg-buildpackage -rfakeroot -d -us -uc -S
+dpkg-buildpackage: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Sun, 03 Apr 2016 20:31:50 +0200
+dpkg-buildpackage: source package intellij-idea-community
+dpkg-buildpackage: source version 2016.1.1-1
+dpkg-buildpackage: source distribution wily
+dpkg-buildpackage: source changed by Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+ dpkg-source --before-build intellij-idea-community_2016.1.1
+dpkg-source: warning: intellij-idea-community_2016.1.1/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Sun, 03 Apr 2016 20:31:50 +0200
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b intellij-idea-community_2016.1.1
+dpkg-source: warning: intellij-idea-community_2016.1.1/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Sun, 03 Apr 2016 20:31:50 +0200
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building intellij-idea-community using existing ./intellij-idea-community_2016.1.1.orig.tar.gz
+dpkg-source: warning: intellij-idea-community_2016.1.1/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Sun, 03 Apr 2016 20:31:50 +0200
+dpkg-source: info: local changes detected, the modified files are:
+ intellij-idea-community_2016.1.1/intellij-idea-community.desktop
+dpkg-source: error: aborting due to unexpected upstream changes, see /tmp/intellij-idea-community_2016.1.1-1.diff.knyc5K
+dpkg-source: info: you can integrate the local changes with dpkg-source --commit
+dpkg-buildpackage: error: dpkg-source -b intellij-idea-community_2016.1.1 gave error exit status 2

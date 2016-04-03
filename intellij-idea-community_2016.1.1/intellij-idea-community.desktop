@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=IntelliJ IDEA 15 Community Edition
+Name=IntelliJ IDEA Community Edition
 Comment=Intelligent Java IDE
 Exec=intellij-idea-community %u
 Icon=intellij-idea-community
