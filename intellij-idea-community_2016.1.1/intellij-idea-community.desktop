@@ -2,7 +2,7 @@
 Name=IntelliJ IDEA Community Edition
 Comment=Intelligent Java IDE
 Exec=intellij-idea-community %u
-Icon=intellij-idea-community
+Icon=intellij-idea-ce
 Terminal=false
 Type=Application
 Categories=Development;IDE;Java;
