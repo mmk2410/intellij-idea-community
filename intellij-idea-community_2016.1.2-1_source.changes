@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 11 May 2016 17:12:30 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 2016.1.2-1
+Distribution: xenial
+Urgency: high
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (2016.1.2-1) xenial; urgency=high
+ .
+   * Upstream Version 2016.1.2
+Checksums-Sha1:
+ 9b5b55df389c64e0c9ba92ff0ad7f9e818d6d332 1824 intellij-idea-community_2016.1.2-1.dsc
+ 24860fcf28517431be055b7b8f20b0dea8b08f84 5637 intellij-idea-community_2016.1.2.orig.tar.gz
+ 5c12db68f9e5e71a832b123afd2092022023155e 5572 intellij-idea-community_2016.1.2-1.debian.tar.xz
+Checksums-Sha256:
+ 7247df866343a16c3be190e55ab660516f75fcb655bd0c5159778d8c26460934 1824 intellij-idea-community_2016.1.2-1.dsc
+ 41958f809fdb7ce6640143c04c88233d51ab86e66be5c0a9e30e846af332550b 5637 intellij-idea-community_2016.1.2.orig.tar.gz
+ 345c97fb0fdde3db120a19585e18962a7c2997ffcf67637edde26943a2c358ac 5572 intellij-idea-community_2016.1.2-1.debian.tar.xz
+Files:
+ 252cd1af99be6da6bcb1f77f4dbacf7b 1824 devel optional intellij-idea-community_2016.1.2-1.dsc
+ e105950dd78a2260639bd06b848e4f3d 5637 devel optional intellij-idea-community_2016.1.2.orig.tar.gz
+ b2858dd254468ec50cf2e29869e4976e 5572 devel optional intellij-idea-community_2016.1.2-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJXM0zFAAoJECuF2UqwCcGYOmcQAIJgV9wnvz16fofkuzSP0teY
+XCInz0kDLfKNVoqvuwZ4Fw874/FEYZyMKm/sa75y9F9gzBIbRaTaLjUnvmfKUfqj
+PVV6k7S37Xt1xA3wWPBILQ9Z0/RdkSQLfWUDcvsUAygBbTp5e4NdkEn1W63wggT6
+8Mmb/Q9OCJ5XAHOklSGzfqtLJxx46wHm1+xh2p4Eobj6bqU/2ndi7P4pfSIxfy3J
+9uoDqBim3VKQTjK6MOz9RSt1y5aRfnNLJdoZsxTGCxnYnOhWLXM1fpqp9yBeF0QJ
+0rs/Gg9GPDqBJWy8j4faS4WzJL81J/7/1PU2VFjtL8XQiYKRzsmQYP15BGjekicf
+ON0B7LXUfEA4C5H5+ic/bNN58fqVd69EYuTBp3xrU6CQ6SCf+a4i37uy2zrar4/J
+8u358aSgY8umY0alVqQ1qDOWDCkLt0maV1bKiQQvQ+Z4jtV4ptVeo+ayOh89NUsH
+jr1+k7zWYd7Cub/vTuWtZ2X8shZ7bWY0uKe5pRgK4wCDuGBJaLfBTWyidHFugWuC
+AT4dO2k7DZHYsvfurcH4JZ2FIEqbi2t11/PHp0pZ17mOeXd5jPFqfX8Cz2MyRF7w
+Q/Uacw0EM9dnbtifFeCm0XVilsiXg+S3GBPwm07LqE3BZTwUi3wJ5opaOMDfy5M9
+OPPRTfv4HzKg96pmAH57
+=FOZO
+-----END PGP SIGNATURE-----
