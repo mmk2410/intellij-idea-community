@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 13 Jul 2016 19:38:30 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 2016.2.0-1
+Distribution: yakkety
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (2016.2.0-1) yakkety; urgency=low
+ .
+   * Upstream Version 2016.2.0
+Checksums-Sha1:
+ 0ec793863e27eff2aacd7903f16f8aac0cf8f76d 1824 intellij-idea-community_2016.2.0-1.dsc
+ 24860fcf28517431be055b7b8f20b0dea8b08f84 5637 intellij-idea-community_2016.2.0.orig.tar.gz
+ f3c20ee62ebbb3046a1e95e306d15fc751da7054 5608 intellij-idea-community_2016.2.0-1.debian.tar.xz
+Checksums-Sha256:
+ c69db2650d173b335b0971c8fa6328c6513912011e3af52907cd514a4ced4234 1824 intellij-idea-community_2016.2.0-1.dsc
+ 41958f809fdb7ce6640143c04c88233d51ab86e66be5c0a9e30e846af332550b 5637 intellij-idea-community_2016.2.0.orig.tar.gz
+ c8ebff40ba62bc4df49c00d5f6af728d6d4543bcc6a031ef62f54c851d4deb63 5608 intellij-idea-community_2016.2.0-1.debian.tar.xz
+Files:
+ ca801bfd98d4d1dfe80da8078a7dcffc 1824 devel optional intellij-idea-community_2016.2.0-1.dsc
+ e105950dd78a2260639bd06b848e4f3d 5637 devel optional intellij-idea-community_2016.2.0.orig.tar.gz
+ cdfc142289dceea0a5a039b9a122f85a 5608 devel optional intellij-idea-community_2016.2.0-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJXhoXCAAoJECuF2UqwCcGYUIUP/iijGgZH+Jzf0CRE0GG/DpXV
+uCyab/Rt3VzpYZ4p1LHQuIde5Axxkcn1jFaE4Cx0ylrZCDF9kCWIKsFVMk2up4rt
+7+TwfTu0kbJLjhnE2qQP0lp0aTm+gHKjZ5/4cTIuqAWP1U1L+nb3ET3aHMknzjfi
+rPRrkUoZ3n/y8mWAeqc8FIqYSMmRHJvTBMsk+i8eCqaoE8YkO1yRFPb+/dEG0180
+VmiW97QmBJodGGRMgkGvHtrH8BWT228t6xwNEkW71jxI29Bbk2KARkQx87MvY+NT
+K+Qa0Mxyy/lXpClrLWCy6oBc2db2/rr51tIL/4g7CWMDmmPB5bDcWJVOLLfQ84kw
+VriKeDvW4oW464UglAarRqZaKL5vMJiHYkXArwjn/OYI3rfPBc9FxFlKwhRGhJo2
+qwRQn7dj+K5aeCMftlhBR8fJP9b0hcvB7K2DiJgW2ZxqJpij3GfWb7ACi9kU3ap9
+hXfouqDJM4Ud1l8bnuyQFV9xB8vTnYZ7gHi2w5RE5Dbux1LSiMiCZ3MCwuUNCTjM
++ZXm8xxLfRVeNgAJBuzUnO8TosDZd0nYw1chDHo3fR59ZPzZZKa9KQTnfm5ACSuM
+yqgZVRIcDyrKs9twXmssOU2DiG4juy5Y0sYSYN3t2hn/S0KRAViQ0fXdntKvDKAL
+K+xhwwKb4h97QgmnhyBK
+=AYp4
+-----END PGP SIGNATURE-----
