@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 19 Aug 2016 20:56:30 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 2016.2.2-1
+Distribution: yakkety
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (2016.2.2-1) yakkety; urgency=low
+ .
+   * Upstream Version 2016.2.2
+Checksums-Sha1:
+ a0a11b1d48969dea8701803e107d3f75e97e9295 1824 intellij-idea-community_2016.2.2-1.dsc
+ 24860fcf28517431be055b7b8f20b0dea8b08f84 5637 intellij-idea-community_2016.2.2.orig.tar.gz
+ 1a808b083d5da38b91b9f4f5d14a6ddfc587971e 5636 intellij-idea-community_2016.2.2-1.debian.tar.xz
+Checksums-Sha256:
+ c995812d44e966a3e6d525f3d3cf6b4189f1feca72b210b3eba4fd6102bae82e 1824 intellij-idea-community_2016.2.2-1.dsc
+ 41958f809fdb7ce6640143c04c88233d51ab86e66be5c0a9e30e846af332550b 5637 intellij-idea-community_2016.2.2.orig.tar.gz
+ 87f6620a3a4b6d4c3b7246383de326946e08d1598c8d2aa363741efc4e6ed95f 5636 intellij-idea-community_2016.2.2-1.debian.tar.xz
+Files:
+ 861a29966846d922b825074a31de6256 1824 devel optional intellij-idea-community_2016.2.2-1.dsc
+ e105950dd78a2260639bd06b848e4f3d 5637 devel optional intellij-idea-community_2016.2.2.orig.tar.gz
+ b3141d23c287342af23b42e7e7bf098d 5636 devel optional intellij-idea-community_2016.2.2-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJXtjmkAAoJECuF2UqwCcGYqIIP/3uViHn1lH6je+Hfp7lWORHz
+7GNDvEMcMMWeqrG8MKtV/eZrwBj3VBTDZ+h69j4NEnXanJ1j3j4r36588PTmov/g
+tQemdBDNVhd62ZHA8Y7C8mLDZOWh+p6rVbsxMd1H+z6dXJNKk2k8nDIM1tH11aPg
+aImTSfkG10wA0P3muZiT4Btfbp9GBzC3rVt8kh7PudW00Yshjy++K/TQBWMR1U1R
+Pohr6O1c1FfZighY06lxY/n79mqo4CZYYzBU5PMQePcz+CR2Wi7NLeZg52Q6yVbq
+MjXAWm3Z69RtkTVBJSmGUZKNzBIA8/tBzQotilumDWimGm4ZrcV+6ICFYu6kt/Tp
+OohtF0CugU/nps4iI2Y7xJaRyxWg/cw2sOr3gXHHWRXMcn7g8VC7D62qt/dMtL8n
+77xtp0W6/tuDHd+yFjAwbiETtOeAA+w7PDdnhYWjlyG37qxS9SfY7an+rYQhg/uU
+Z+R9kTZ+BaKaDdGJvUgRyDY2CcnUG/mDrlZKSknAOqEgskiqQx0RzBb24U5tlZEE
+OtVPi4uUa/hqO7Q5s9+evDmsLC2gHbcayJXBBRQy107wXjrHpOoA0ZpDMzPPcryQ
+18vA2AcAiUENMHnXgfGyvuLF5yTNK+yWz8nrVWTKrWcSYv3abQJGWgNQs1G8gpTF
+TCmZ/adKs2TE9siB+xXd
+=wpo1
+-----END PGP SIGNATURE-----
