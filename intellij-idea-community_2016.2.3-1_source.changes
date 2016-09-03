@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 03 Sep 2016 23:45:30 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source
+Version: 2016.2.3-1
+Distribution: yakkety
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (2016.2.3-1) yakkety; urgency=low
+ .
+   * Upstream Version 2016.2.3
+Checksums-Sha1:
+ a14515f3c80d729ffe093c5c12e570db4c548c3c 1824 intellij-idea-community_2016.2.3-1.dsc
+ 24860fcf28517431be055b7b8f20b0dea8b08f84 5637 intellij-idea-community_2016.2.3.orig.tar.gz
+ a5450db394e9830ab86a81322ff33430df62069f 5648 intellij-idea-community_2016.2.3-1.debian.tar.xz
+Checksums-Sha256:
+ cbf47b99121df0979109c9e79a26a7cb5d124211c237d57e3def5a487982ca17 1824 intellij-idea-community_2016.2.3-1.dsc
+ 41958f809fdb7ce6640143c04c88233d51ab86e66be5c0a9e30e846af332550b 5637 intellij-idea-community_2016.2.3.orig.tar.gz
+ ffa5a0166ca5c761cbf02267ff7e6b98f58472ce4a205d147d99657864248f65 5648 intellij-idea-community_2016.2.3-1.debian.tar.xz
+Files:
+ 7027fd818d6a9d7897df635a88924da0 1824 devel optional intellij-idea-community_2016.2.3-1.dsc
+ e105950dd78a2260639bd06b848e4f3d 5637 devel optional intellij-idea-community_2016.2.3.orig.tar.gz
+ 83382aad351a30756b7f8e97da9b2a96 5648 devel optional intellij-idea-community_2016.2.3-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJXy0a4AAoJECuF2UqwCcGYYZwP/3BoV8vz8IqI7/xVuiXLlAMH
+2WWx9uLsqy5pITHNjZPGPm66Lzr6gLxSSvviA+qtlHEQ2tsPAN2aRGiEIpfKjO7W
+NWMTniRwVhUQkufRS1z+X9NEz2pXd7bU9cQ/Edm+1QvvF0+eWibzRkLidHHbh4RG
+7e2wO48MCTWi2spNfEx/Fotaizk6ktGdxY4mGelxX9ETjqcG1pae+kWwU7NRX7co
+lKRiIubsKWMZxt/US0n2ym3AciboOJFSe9oxFGPEW+9lGGha49dY352GXmmsQHix
+bDNOdQSdlULz2wccAz9mag4L9i+hWqUbB3STwsrcDZovTn4gND/2hgRu0rJD9Jtq
+IYn0JQxLfiTUr70B3GOLucyISLKjfthzYZgtfnm89xCtv7bK3I99imw0KqTX1yxy
+nYyuTtBw+A65sShUajtiMWax+ePYqWBArn30RQGpeMaVBmmG4VDEL4FKYNUt2Qi8
+DUJXZmEyc1uFVVp5QDqOmvKNYrnLrIDts2PwlNCKRtpVM4E2rtbd2XXXHrLsqbqK
+DZNVHxymUW/yQDjQuKOZ17/A0LXrtsBnmZEjcWxm99JCGljguqn247qCoz6UZZQB
+EkC20AfgvuQCzeuzZU0ZFbVK+bTeKr9VhGlhQBHHVPgRvRrC2HVZrdayVtPnwoHr
+1tfziPQEJbHRbjk0uqaU
+=fAG3
+-----END PGP SIGNATURE-----
