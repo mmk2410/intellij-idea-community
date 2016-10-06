@@ -1,3 +1,9 @@
+intellij-idea-community (2016.2.4-1) yakkety; urgency=low
+
+  * Upstream Version 2016.2.4
+
+ -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+
 intellij-idea-community (2016.2.3-1) yakkety; urgency=low
 
   * Upstream Version 2016.2.3
