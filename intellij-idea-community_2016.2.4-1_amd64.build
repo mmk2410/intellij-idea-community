@@ -1,0 +1,105 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+dpkg-buildpackage: source package intellij-idea-community
+dpkg-buildpackage: source version 2016.2.4-1
+dpkg-buildpackage: source distribution yakkety
+dpkg-buildpackage: source changed by Francesco Levorato (flevour) <git@flevour.net>
+ dpkg-source --before-build intellij-idea-community_2016.2.4
+dpkg-buildpackage: host architecture amd64
+dpkg-source: warning: intellij-idea-community_2016.2.4/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+ fakeroot debian/rules clean
+dh clean
+dh: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b intellij-idea-community_2016.2.4
+dpkg-source: warning: intellij-idea-community_2016.2.4/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building intellij-idea-community using existing ./intellij-idea-community_2016.2.4.orig.tar.gz
+dpkg-source: warning: intellij-idea-community_2016.2.4/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+dpkg-source: info: building intellij-idea-community in intellij-idea-community_2016.2.4-1.debian.tar.xz
+dpkg-source: info: building intellij-idea-community in intellij-idea-community_2016.2.4-1.dsc
+ debian/rules build
+dh build
+dh: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+dh: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+dpkg-parsechangelog: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+   dh_icons
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'intellij-idea-community' in '../intellij-idea-community_2016.2.4-1_all.deb'.
+ dpkg-genchanges  >../intellij-idea-community_2016.2.4-1_amd64.changes
+dpkg-genchanges: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+dpkg-genchanges: warning:     debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+dpkg-genchanges: warning:     debian/changelog(l11): badly formatted trailer line
+LINE:  -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Sat, 03 Sep 2016 23:45:30 +0200
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build intellij-idea-community_2016.2.4
+dpkg-source: warning: intellij-idea-community_2016.2.4/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Francesco Levorato (flevour) <git@flevour.net> Thu, 06 Oct 2016 10:34:00 +0200
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+E: intellij-idea-community changes: bad-distribution-in-changes-file yakkety
+W: intellij-idea-community source: maintainer-script-lacks-debhelper-token debian/postinst
+W: intellij-idea-community source: maintainer-script-lacks-debhelper-token debian/postrm
+W: intellij-idea-community source: maintainer-script-lacks-debhelper-token debian/preinst
+W: intellij-idea-community source: package-needs-versioned-debhelper-build-depends 9
+W: intellij-idea-community source: syntax-error-in-dep5-copyright line 18: Continuation line outside a paragraph (maybe line 17 should be " .").
+W: intellij-idea-community source: out-of-date-standards-version 3.9.6 (current is 3.9.7)
+W: intellij-idea-community: syntax-error-in-debian-changelog line 5 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 11 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 17 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 23 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 29 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 35 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 41 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 47 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 53 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 59 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 65 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 71 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 78 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 84 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 90 "badly formatted trailer line"
+E: intellij-idea-community: copyright-file-contains-full-apache-2-license
+E: intellij-idea-community: description-is-pkg-name IntelliJ IDEA Community
+W: intellij-idea-community: script-with-language-extension usr/bin/intellij-idea-community.sh
+W: intellij-idea-community: binary-without-manpage usr/bin/intellij-idea-community.sh
+W: intellij-idea-community: desktop-command-not-in-package usr/share/applications/intellij-idea-community.desktop intellij-idea-community
+W: intellij-idea-community: maintainer-script-ignores-errors postinst
+W: intellij-idea-community: maintainer-script-ignores-errors postrm
+W: intellij-idea-community: maintainer-script-ignores-errors preinst
+Finished running lintian.
