@@ -50,6 +50,7 @@ To update the version follow the following steps (the old version is here 15.0.1
  9. Run the following command to build the package for testing purposes
  
  ```
+ sudo apt-get install devscripts
  debuild -us -uc
  ```
  
