@@ -1,7 +1,7 @@
 # intellij-idea-community
 .deb Packages of IntelliJ IDEA Community Edition for Ubuntu
 
-The latest upstream version is 15.0.2 which is included in the package version 15.0.2.
+The latest upstream version is 2016.2.5 which is included in the package version 2016.2.5.
 
 ## Adding the ppa to Ubuntu
 

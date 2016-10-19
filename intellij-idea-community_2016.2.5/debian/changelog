@@ -1,3 +1,9 @@
+intellij-idea-community (2016.2.5-1) yakkety; urgency=low
+
+  * Upstream Version 2016.2.5
+
+ -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Wed, 19 Oct 2016 09:53:00 +0100
+
 intellij-idea-community (2016.2.3-1) yakkety; urgency=low
 
   * Upstream Version 2016.2.3
