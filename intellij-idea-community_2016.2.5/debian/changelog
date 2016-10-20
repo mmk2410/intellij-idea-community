@@ -1,3 +1,9 @@
+intellij-idea-community (2016.2.5-1) yakkety; urgency=low
+
+  * Upstream Version 2016.2.5
+
+ -- Andy Balaam (andybalaam) <mail@artificialworlds.net> Thu, 20 Oct 2016 09:27:23 +0100
+ 
 intellij-idea-community (2016.2.4-1) yakkety; urgency=low
 
   * Upstream Version 2016.2.4
