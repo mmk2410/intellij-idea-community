@@ -71,20 +71,22 @@ To update the version follow the following steps (the old version is here 15.0.1
  sudo dpkg -i intellij-idea-community_15.0.2-1_all.deb
  ```
 
- 13. If everything works commit your changes
+ 13. If everything works, add yourself to the CONTRIBUTORS.txt
+
+ 14. Commit your changes
 
  ```
  git add -A
  git commit -m "Version 15.0.2"
  ```
 
- 14. Push to the branch
+ 15. Push to the branch
 
  ```
  git push origin version_15.0.2
  ```
 
- 15. Create new pull request
+ 16. Create new pull request
 
 
 ## Setting up the build environment
