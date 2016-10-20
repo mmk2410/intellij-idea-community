@@ -1,3 +1,0 @@
-#!/bin/sh
-export IDEA_JDK=$JAVA_HOME
-exec /opt/intellij-idea-community/bin/idea.sh "$@"
