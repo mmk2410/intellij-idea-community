@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 19 Jan 2017 19:45:39 +0100
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source all
+Version: 2016.3.3-1
+Distribution: yakkety
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community
+Changes:
+ intellij-idea-community (2016.3.3-1) yakkety; urgency=low
+ .
+   * Upstream Version 2016.3.3
+Checksums-Sha1:
+ a2cbc77038d9648c061b2439e1a56a8aa51e27a9 1808 intellij-idea-community_2016.3.3-1.dsc
+ 24860fcf28517431be055b7b8f20b0dea8b08f84 5637 intellij-idea-community_2016.3.3.orig.tar.gz
+ 4296eba6b95dda1adf316f60dc5289427faf427f 5844 intellij-idea-community_2016.3.3-1.debian.tar.xz
+ 11997e92b44a7f9ae0c46cb325febcc02853e6da 11998 intellij-idea-community_2016.3.3-1_all.deb
+Checksums-Sha256:
+ 0d1db7c38b76d990cbfa0838b9e44626d5b54910d875d2ce9ddfcf5be9fd770c 1808 intellij-idea-community_2016.3.3-1.dsc
+ 41958f809fdb7ce6640143c04c88233d51ab86e66be5c0a9e30e846af332550b 5637 intellij-idea-community_2016.3.3.orig.tar.gz
+ f42eef2d2e534e702fed3e3e9af14c3927f0fff6880a028d3134b5bacb74f637 5844 intellij-idea-community_2016.3.3-1.debian.tar.xz
+ 549aebaae0ff94fdfbbaddd2d8704cd154116c1802f4dadc67b63a6f4126c95a 11998 intellij-idea-community_2016.3.3-1_all.deb
+Files:
+ 8101ba3c0b7592f5086290af6ae1d474 1808 devel optional intellij-idea-community_2016.3.3-1.dsc
+ e105950dd78a2260639bd06b848e4f3d 5637 devel optional intellij-idea-community_2016.3.3.orig.tar.gz
+ 666c5230291a9e91dac214607673230b 5844 devel optional intellij-idea-community_2016.3.3-1.debian.tar.xz
+ 502d4943d9545e0c35945ed02b0e2c04 11998 devel optional intellij-idea-community_2016.3.3-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIcBAEBCAAGBQJYgQvWAAoJECuF2UqwCcGYynUP/Aw2catdggbY3gacOmYX59yN
+YgSqbYAsQ4qyrW6FjhB0F6JW1XB1WyaTnMDaXjOFwGhneenaI/o/gMnU280vOB/F
+TyRfY8CVbcb7SL5jLz0sZ6ecctkxCHxE/TphEWknkVU7wH2qL4XFWPeXzB0AdosY
+/R+3aceD1uEFEMBv5wMnShJ4tmbLIxtXoQFid2VP5B2IqmObFbqaso7Lkk5mGxJU
+kRB3fTJ86Qt9Q8PYMUqB0TDxw6Lv8sI0olxm+DYjdhpfh4NDpbTylgmWOKQTWt6S
+PEHEh1ZZi00iAHBu+aByDXXUq1IwXb0mVAjVp4A0JEbT5KeY98kkNStna7zkwvvF
+uD3NQ3Rn0gtieb+T4dttmtlA+t01oGWaV1uFmiglc0zCGk0oEoQuTx7q4H0dbunb
+5fp30N+1gF+/DQqnbePg/O8dvCv++qb4qf4ugHhPy5tz32KmeIa084+RqEm8H3ec
+WURLJteTOGgTEqQwwvyjdFOvYLUaO/ptZzaecAopNodx/PAJv0DO8revsnAXO21m
+CKYIAQRVQM43UWXYsM0v3p4m++DPGf4qQQIk6C+cSpVAJsQiFEzuzc2p7iG1QJDO
+S3pbgwZ78+X7yK/O9W4sMWvQ7bFVI0vJ82Y0fQkXFQRqcPRStckIdIp+YR0wkYnN
+li9FWFd3a+oof0rGds/a
+=/dM9
+-----END PGP SIGNATURE-----

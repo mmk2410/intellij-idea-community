@@ -1,28 +1,28 @@
  dpkg-buildpackage -rfakeroot -D -us -uc
 dpkg-buildpackage: warning:     debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
 dpkg-buildpackage: info: source package intellij-idea-community
-dpkg-buildpackage: info: source version 2016.3.2-1
+dpkg-buildpackage: info: source version 2016.3.3-1
 dpkg-buildpackage: info: source distribution yakkety
 dpkg-buildpackage: info: source changed by Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
- dpkg-source --before-build intellij-idea-community_2016.3.2
+ dpkg-source --before-build intellij-idea-community_2016.3.3
 dpkg-buildpackage: info: host architecture amd64
-dpkg-source: warning: intellij-idea-community_2016.3.2/debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
+dpkg-source: warning: intellij-idea-community_2016.3.3/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
  fakeroot debian/rules clean
 dh clean
    dh_testdir
    dh_auto_clean
    dh_clean
- dpkg-source -b intellij-idea-community_2016.3.2
-dpkg-source: warning: intellij-idea-community_2016.3.2/debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
+ dpkg-source -b intellij-idea-community_2016.3.3
+dpkg-source: warning: intellij-idea-community_2016.3.3/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
 dpkg-source: info: using source format '3.0 (quilt)'
-dpkg-source: info: building intellij-idea-community using existing ./intellij-idea-community_2016.3.2.orig.tar.gz
-dpkg-source: warning: intellij-idea-community_2016.3.2/debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
-dpkg-source: info: building intellij-idea-community in intellij-idea-community_2016.3.2-1.debian.tar.xz
-dpkg-source: info: building intellij-idea-community in intellij-idea-community_2016.3.2-1.dsc
+dpkg-source: info: building intellij-idea-community using existing ./intellij-idea-community_2016.3.3.orig.tar.gz
+dpkg-source: warning: intellij-idea-community_2016.3.3/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
+dpkg-source: info: building intellij-idea-community in intellij-idea-community_2016.3.3-1.debian.tar.xz
+dpkg-source: info: building intellij-idea-community in intellij-idea-community_2016.3.3-1.dsc
  debian/rules build
 dh build
    dh_testdir
@@ -39,7 +39,7 @@ dh binary
    dh_installdocs
    dh_installchangelogs
 dpkg-parsechangelog: warning:     debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
    dh_icons
    dh_perl
    dh_link
@@ -49,21 +49,21 @@ LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fr
    dh_installdeb
    dh_gencontrol
 dpkg-gencontrol: warning:     debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package 'intellij-idea-community' in '../intellij-idea-community_2016.3.2-1_all.deb'.
- dpkg-genchanges  >../intellij-idea-community_2016.3.2-1_amd64.changes
+dpkg-deb: building package 'intellij-idea-community' in '../intellij-idea-community_2016.3.3-1_all.deb'.
+ dpkg-genchanges  >../intellij-idea-community_2016.3.3-1_amd64.changes
 dpkg-genchanges: warning:     debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
 dpkg-genchanges: warning:     debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
 dpkg-genchanges: warning:     debian/changelog(l11): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Tue, 13 Dec 2016 21:13:17 +0100
+LINE:  -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
 dpkg-genchanges: info: including full source code in upload
- dpkg-source --after-build intellij-idea-community_2016.3.2
-dpkg-source: warning: intellij-idea-community_2016.3.2/debian/changelog(l5): badly formatted trailer line
-LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Fri, 30 Dec 2016 23:21:26 +0100
+ dpkg-source --after-build intellij-idea-community_2016.3.3
+dpkg-source: warning: intellij-idea-community_2016.3.3/debian/changelog(l5): badly formatted trailer line
+LINE:  -- Marcel Kapfer (mmk2410) (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 19 Jan 2017 19:45:39 +0100
 dpkg-buildpackage: info: full upload (original source is included)
 Now running lintian...
 W: intellij-idea-community source: maintainer-script-lacks-debhelper-token debian/postinst
@@ -87,14 +87,16 @@ W: intellij-idea-community: syntax-error-in-debian-changelog line 77 "badly form
 W: intellij-idea-community: syntax-error-in-debian-changelog line 83 "badly formatted trailer line"
 W: intellij-idea-community: syntax-error-in-debian-changelog line 89 "badly formatted trailer line"
 W: intellij-idea-community: syntax-error-in-debian-changelog line 95 "badly formatted trailer line"
-W: intellij-idea-community: syntax-error-in-debian-changelog line 102 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 101 "badly formatted trailer line"
 W: intellij-idea-community: syntax-error-in-debian-changelog line 108 "badly formatted trailer line"
 W: intellij-idea-community: syntax-error-in-debian-changelog line 114 "badly formatted trailer line"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 120 "badly formatted trailer line"
 E: intellij-idea-community: copyright-file-contains-full-apache-2-license
 E: intellij-idea-community: description-is-pkg-name IntelliJ IDEA Community
 W: intellij-idea-community: script-with-language-extension usr/bin/intellij-idea-community.sh
 W: intellij-idea-community: binary-without-manpage usr/bin/intellij-idea-community.sh
 W: intellij-idea-community: desktop-command-not-in-package usr/share/applications/intellij-idea-community.desktop intellij-idea-community
+W: intellij-idea-community: command-with-path-in-maintainer-script postinst:18 /usr/bin/desktop-file-install
 W: intellij-idea-community: maintainer-script-ignores-errors postinst
 W: intellij-idea-community: maintainer-script-ignores-errors postrm
 W: intellij-idea-community: maintainer-script-ignores-errors preinst
