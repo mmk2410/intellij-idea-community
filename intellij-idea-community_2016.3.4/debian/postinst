@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 cd /opt/
 
 ## Extract the package
@@ -10,10 +13,9 @@ sudo mv /opt/idea-IC-* /opt/intellij-idea-community
 ## Remove  the tar.gz package
 sudo rm /opt/ideaIC-*
 
-## Make /usr/bin usable
-sudo mv /usr/bin/intellij-idea-community.sh /usr/bin/intellij-idea-community
-
 ## Install the .desktop file, if necessary
 if [ -x "/usr/bin/desktop-file-install" ]; then
-    sudo /usr/bin/desktop-file-install /usr/share/applications/intellij-idea-community.desktop
+    sudo desktop-file-install /usr/share/applications/intellij-idea-community.desktop
 fi
+
+##DEBHELPER##
