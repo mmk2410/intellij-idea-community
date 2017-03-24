@@ -18,4 +18,10 @@ if [ -x "/usr/bin/desktop-file-install" ]; then
     sudo desktop-file-install /usr/share/applications/intellij-idea-community.desktop
 fi
 
+## Switch to new repository, if necessary
+oldrepo="mmk2410\/intellij-idea-community"
+newrepo="mmk2410\/intellij-idea"
+grep -rl "$oldrepo" /etc/apt/sources.list | xargs -r sed -i "s/$oldrepo/$newrepo/g"
+grep -rl "$oldrepo" /etc/apt/sources.list.d/ | xargs -r sed -i "s/$oldrepo/$newrepo/g"
+
 ##DEBHELPER##
