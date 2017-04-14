@@ -1,3 +1,9 @@
+intellij-idea-community (2017.1.1-1) zesty; urgency=low
+
+  * Upstream Version 2017.1.1
+
+ -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@gmail.com>  Fri, 14 Apr 2017 21:50:34 +0100
+
 intellij-idea-community (2017.1-1) yakkety; urgency=low
 
   * Upstream Version 2017.1
