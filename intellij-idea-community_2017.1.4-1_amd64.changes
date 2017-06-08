@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 08 Jun 2017 08:59:53 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source all
+Version: 2017.1.4-1
+Distribution: zesty
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Kapfer (mmk2410) <marcelmichaelkapfer@gmail.com>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community Edition
+Changes:
+ intellij-idea-community (2017.1.4-1) zesty; urgency=low
+ .
+   * Upstream Version 2017.1.4
+Checksums-Sha1:
+ 10c967c4651371527a89067d4fd1668d427bf264 957 intellij-idea-community_2017.1.4-1.dsc
+ 2af60d7bb0d2765946394c4200dac6e38abe4b29 5641 intellij-idea-community_2017.1.4.orig.tar.gz
+ d41a6b865635433be57c41defcfdf007007e5a5c 2632 intellij-idea-community_2017.1.4-1.debian.tar.xz
+ d961312cf03c1ce808e3307dd98342ec42bb4fd6 8824 intellij-idea-community_2017.1.4-1_all.deb
+Checksums-Sha256:
+ 38a38df4deb2621fa8dad72faaff8abee8b964c49103bb7f1e3bc1646aeef936 957 intellij-idea-community_2017.1.4-1.dsc
+ 93646f0ed33fb1c62473e12c18f9fa7d90ade1ec3ec2c00b92eafd9fac728882 5641 intellij-idea-community_2017.1.4.orig.tar.gz
+ 1d722750f344c5c78b16448f094bece620dacc23d35ae02cb56668e777a4a761 2632 intellij-idea-community_2017.1.4-1.debian.tar.xz
+ c2b6d7c04d084a96d7ca963905a304d041f25850406be9b0d523ff10550e7a0e 8824 intellij-idea-community_2017.1.4-1_all.deb
+Files:
+ 02fd80fb6f875e0e87b1fbe0cb1b58ff 957 devel optional intellij-idea-community_2017.1.4-1.dsc
+ 38a2df9af92629b31beaa46222d3e00e 5641 devel optional intellij-idea-community_2017.1.4.orig.tar.gz
+ f7e4eb40ecc1b5c8e5f5daa792170f17 2632 devel optional intellij-idea-community_2017.1.4-1.debian.tar.xz
+ 5668f3bf769476d4a93d5fd870b5631f 8824 devel optional intellij-idea-community_2017.1.4-1_all.deb
