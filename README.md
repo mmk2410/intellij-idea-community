@@ -6,7 +6,7 @@ The latest upstream version is 2016.2.4 which is included in the package version
 ## Adding the ppa to Ubuntu
 
 ```
-sudo apt-add-repository ppa:mmk2410/intellij-idea-community
+sudo apt-add-repository ppa:mmk2410/intellij-idea
 sudo apt-get update
 sudo apt-get install intellij-idea-community
 ```
