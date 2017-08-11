@@ -1,0 +1,84 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: Warnung:     debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+dpkg-buildpackage: Quellpaket intellij-idea-community
+dpkg-buildpackage: Quellversion 2017.2.1-1
+dpkg-buildpackage: Quelldistribution yakkety
+dpkg-buildpackage: Quellen geändert durch Stefan (Stefan65) <stefan@localhost>
+ dpkg-source --before-build intellij-idea-community_2017.2.1
+dpkg-buildpackage: Host-Architektur amd64
+dpkg-source: Warnung: intellij-idea-community_2017.2.1/debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+ fakeroot debian/rules clean
+dh clean
+dh: Warnung:     debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b intellij-idea-community_2017.2.1
+dpkg-source: Warnung: intellij-idea-community_2017.2.1/debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+dpkg-source: Information: Quellformat »3.0 (quilt)« wird verwendet
+dpkg-source: Information: intellij-idea-community wird unter Benutzung des existierenden ./intellij-idea-community_2017.2.1.orig.tar.gz gebaut
+dpkg-source: Warnung: intellij-idea-community_2017.2.1/debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+dpkg-source: Information: intellij-idea-community wird in intellij-idea-community_2017.2.1-1.debian.tar.xz gebaut
+dpkg-source: Information: intellij-idea-community wird in intellij-idea-community_2017.2.1-1.dsc gebaut
+ debian/rules build
+dh build
+dh: Warnung:     debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+dh: Warnung:     debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+dpkg-parsechangelog: Warnung:     debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+   dh_icons
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: Warnung:     debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: Paket »intellij-idea-community« wird in »../intellij-idea-community_2017.2.1-1_all.deb« gebaut.
+ dpkg-genchanges  >../intellij-idea-community_2017.2.1-1_amd64.changes
+dpkg-genchanges: Warnung:     debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+dpkg-genchanges: Warnung:     debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+dpkg-genchanges: Warnung:     debian/changelog(l11): ungültig formatierte Zeile im Nachspann
+LINE:  -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@gmail.com> Wed, 12 Jul 2017 18:51:50 +0200
+dpkg-genchanges: kompletter Quellcode beim Hochladen hinzufügen
+ dpkg-source --after-build intellij-idea-community_2017.2.1
+dpkg-source: Warnung: intellij-idea-community_2017.2.1/debian/changelog(l5): ungültig formatierte Zeile im Nachspann
+LINE:  -- Stefan (Stefan65) <stefan@localhost> Fri, 11 Aug 2017 18:45:17 +0200
+dpkg-buildpackage: Alles hochzuladen (Originalquellen enthalten)
+Now running lintian...
+E: intellij-idea-community changes: bad-distribution-in-changes-file yakkety
+E: intellij-idea-community changes: changed-by-address-malformed Stefan (Stefan65) <stefan@localhost>
+E: intellij-idea-community changes: changed-by-address-is-on-localhost Stefan (Stefan65) <stefan@localhost>
+W: intellij-idea-community source: package-needs-versioned-debhelper-build-depends 9
+W: intellij-idea-community source: newer-standards-version 3.9.8 (current is 3.9.7)
+W: intellij-idea-community: syntax-error-in-debian-changelog line 5 "ung??ltig formatierte Zeile im Nachspann"
+W: intellij-idea-community: syntax-error-in-debian-changelog line 11 "ung??ltig formatierte Zeile im Nachspann"
+E: intellij-idea-community: debian-changelog-file-contains-invalid-email-address stefan@localhost
+W: intellij-idea-community: binary-without-manpage usr/bin/intellij-idea-community
+Finished running lintian.

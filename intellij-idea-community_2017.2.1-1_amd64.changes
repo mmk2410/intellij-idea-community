@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 11 Aug 2017 18:45:17 +0200
+Source: intellij-idea-community
+Binary: intellij-idea-community
+Architecture: source all
+Version: 2017.2.1-1
+Distribution: yakkety
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Stefan (Stefan65) <stefan@localhost>
+Description:
+ intellij-idea-community - IntelliJ IDEA Community Edition
+Changes:
+ intellij-idea-community (2017.2.1-1) yakkety; urgency=low
+ .
+   * Upstream Version 2017.2.1
+Checksums-Sha1:
+ 869cf34e7b34e6fd68e661e6b8342b7d42fdc3de 957 intellij-idea-community_2017.2.1-1.dsc
+ 2af60d7bb0d2765946394c4200dac6e38abe4b29 5641 intellij-idea-community_2017.2.1.orig.tar.gz
+ 33fa7b4a61f0c3467a75e2fd351b0016626815cf 2696 intellij-idea-community_2017.2.1-1.debian.tar.xz
+ 915cd2c24243ccd9dfeacb9bd960c27bd18b4345 8902 intellij-idea-community_2017.2.1-1_all.deb
+Checksums-Sha256:
+ 35f8dd74ff0aa8b63bbdda17ee68ae0697245478a7f90112c371b812cdc9fb06 957 intellij-idea-community_2017.2.1-1.dsc
+ 93646f0ed33fb1c62473e12c18f9fa7d90ade1ec3ec2c00b92eafd9fac728882 5641 intellij-idea-community_2017.2.1.orig.tar.gz
+ f4c22d6b08eeb3c71f1b48530b2a6c72f0991772f5d591b02f692326841826f4 2696 intellij-idea-community_2017.2.1-1.debian.tar.xz
+ 2f83a9b76660d6cfc4b3eee0ab375f3a1469f08d8f3beb8b34c3799349ea05c4 8902 intellij-idea-community_2017.2.1-1_all.deb
+Files:
+ 9ca16c5cb279cfe091c7d8b1aace67b9 957 devel optional intellij-idea-community_2017.2.1-1.dsc
+ 38a2df9af92629b31beaa46222d3e00e 5641 devel optional intellij-idea-community_2017.2.1.orig.tar.gz
+ afb57b99a4dd70926f1209954f6aeab3 2696 devel optional intellij-idea-community_2017.2.1-1.debian.tar.xz
+ f23ff77115523f22e164a15fbf973ac8 8902 devel optional intellij-idea-community_2017.2.1-1_all.deb
