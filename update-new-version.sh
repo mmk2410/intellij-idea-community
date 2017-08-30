@@ -17,7 +17,7 @@ function main {
 
   * Upstream Version $new
 
- -- $author ($username) <$email> $now
+ -- $author ($username) <$email>  $now
  " >> $tempfile
 
     cat intellij-idea-community_$new/debian/changelog >> $tempfile
