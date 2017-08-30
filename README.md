@@ -1,7 +1,7 @@
 # intellij-idea-community
 .deb Packages of IntelliJ IDEA Community Edition for Ubuntu
 
-The latest upstream version is 2016.2.4 which is included in the package version 2016.2.4.
+The latest upstream version is 2017.2.3 which is included in the package version 2017.2.3.
 
 ## Adding the ppa to Ubuntu
 
@@ -19,14 +19,14 @@ To update the version follow the following steps (the old version is here 15.0.1
  2. Create your own feature branch
 
  ```
- git checkout -b version_15.0.2
+ git checkout -b version-2017.2.3
  ```
 
  3. Rename the following
 
  ```
- mv intellij-idea-community_15.0.1 intellij-idea-community_15.0.2
- mv intellij-idea-community_15.0.1.orig.tar.gz intellij-idea-community_15.0.2.orig.tar.gz
+ mv intellij-idea-community_15.0.1 intellij-idea-community_2017.2.3
+ mv intellij-idea-community_15.0.1.orig.tar.gz intellij-idea-community_2017.2.3.orig.tar.gz
  ```
 
  4. Edit the README.md and update the version numbers
@@ -34,7 +34,7 @@ To update the version follow the following steps (the old version is here 15.0.1
  5. Go into the build files directory
 
  ```
- cd intellij-idea-community_15.0.2/debian
+ cd intellij-idea-community_2017.2.3/debian
  ```
 
  6. Edit the changelog file and prepend a new changelog entry. You can just copy an old one and update the values in it
@@ -68,7 +68,7 @@ To update the version follow the following steps (the old version is here 15.0.1
  12. Install the package to test it
 
  ```
- sudo dpkg -i intellij-idea-community_15.0.2-1_all.deb
+ sudo dpkg -i intellij-idea-community_2017.2.3_all.deb
  ```
 
  13. If everything works, add yourself to the CONTRIBUTORS.txt
@@ -77,18 +77,21 @@ To update the version follow the following steps (the old version is here 15.0.1
 
  ```
  git add -A
- git commit -m "Version 15.0.2"
+ git commit -m "Version 2017.2.3"
  ```
 
  15. Push to the branch
 
  ```
- git push origin version_15.0.2
+ git push origin version-2017.2.3
  ```
 
  16. Create new pull request
 
+## Automatically do steps 2 to 12
+
+Run `./update-new-version.sh 2017.1.5 2017.2.3`
 
 ## Setting up the build environment
 
-Run `sudo apt install build-dep debhelper`.
+Run `sudo apt install devscripts debhelper`.

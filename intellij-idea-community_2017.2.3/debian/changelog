@@ -1,3 +1,9 @@
+intellij-idea-community (2017.2.3-1) yakkety; urgency=low
+
+  * Upstream Version 2017.2.3
+
+ -- Bart de Koning (bratdaking) <bratdaking@gmail.com> Wed, 30 Aug 2017 11:39:30 +0200
+ 
 intellij-idea-community (2017.1.5-1) yakkety; urgency=low
 
   * Upstream Version 2017.1.5
