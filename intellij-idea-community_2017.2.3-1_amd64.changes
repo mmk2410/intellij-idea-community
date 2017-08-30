@@ -4,28 +4,31 @@ Source: intellij-idea-community
 Binary: intellij-idea-community
 Architecture: source all
 Version: 2017.2.3-1
-Distribution: yakkety
+Distribution: artful
 Urgency: low
-Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
-Changed-By: Bart de Koning (//gitlab.com/mmk2410) <bratdaking@gmail.com>
+Maintainer: Marcel Kapfer <opensource@mmk2410.org>
+Changed-By: Bart de Koning (bratdaking) <bratdaking@gmail.com>
 Description:
  intellij-idea-community - IntelliJ IDEA Community Edition
 Changes:
- intellij-idea-community (2017.2.3-1) yakkety; urgency=low
+ intellij-idea-community (2017.2.3-1) artful; urgency=low
  .
    * Upstream Version 2017.2.3
 Checksums-Sha1:
- d4c2792971b2fb9f5faa07f41542770fb68f4f59 957 intellij-idea-community_2017.2.3-1.dsc
+ 45047416f7fc5fbaa339f713af18a708b3226687 940 intellij-idea-community_2017.2.3-1.dsc
  2af60d7bb0d2765946394c4200dac6e38abe4b29 5641 intellij-idea-community_2017.2.3.orig.tar.gz
- 2fd3aca49dded153ce03fc78f26ea71999198caa 2692 intellij-idea-community_2017.2.3-1.debian.tar.xz
- f8a4287e55d8fb228872cc529ff46f9851f51526 8910 intellij-idea-community_2017.2.3-1_all.deb
+ ee9a31ab30cb3d2868a14da7a88415c1522c6357 2676 intellij-idea-community_2017.2.3-1.debian.tar.xz
+ b16dbc0f3296c79f0220c575871b8bb59800cade 8882 intellij-idea-community_2017.2.3-1_all.deb
+ a575de7a5636d983c39a44b200e1aa0bd8bade7f 5206 intellij-idea-community_2017.2.3-1_amd64.buildinfo
 Checksums-Sha256:
- 2136d5c2f80cba73e945b09e36eb713a929305a44338fc2848819ec1c33d10b0 957 intellij-idea-community_2017.2.3-1.dsc
+ 59080901ff52202f652215cb30219bf692353d2625741c78f1913003718c0076 940 intellij-idea-community_2017.2.3-1.dsc
  93646f0ed33fb1c62473e12c18f9fa7d90ade1ec3ec2c00b92eafd9fac728882 5641 intellij-idea-community_2017.2.3.orig.tar.gz
- 375d6ed0f1bc928c1955d55a66867702de7306b8d3becd63a1c9f222b781beb8 2692 intellij-idea-community_2017.2.3-1.debian.tar.xz
- b57639b52fdbd40a95c6988a70bd9e3fbe74a8549d959ec4ab15e17c3bcf1ef9 8910 intellij-idea-community_2017.2.3-1_all.deb
+ 88fba560aa1a16d2302995de3d9bdfc10ae4e5f204930757feffdb731392205f 2676 intellij-idea-community_2017.2.3-1.debian.tar.xz
+ 6e3dce4b246c4ac96b5f0e3813cf19cb1d6f098cef8463143e52528c716fb248 8882 intellij-idea-community_2017.2.3-1_all.deb
+ 67316b1c57805f09f5a36d112f3af13676c5f0ba3d4a1c8bc8c57627092dff25 5206 intellij-idea-community_2017.2.3-1_amd64.buildinfo
 Files:
- f8e4f80ea921cb5c7e0e8c1ade60077d 957 devel optional intellij-idea-community_2017.2.3-1.dsc
+ da5baba341ef520bdff87a831da0fb8b 940 devel optional intellij-idea-community_2017.2.3-1.dsc
  38a2df9af92629b31beaa46222d3e00e 5641 devel optional intellij-idea-community_2017.2.3.orig.tar.gz
- 8cd17948dbbd0fcb72a0dce1359dd394 2692 devel optional intellij-idea-community_2017.2.3-1.debian.tar.xz
- 50cc6183510426ae5242ead08f1a52ce 8910 devel optional intellij-idea-community_2017.2.3-1_all.deb
+ ab1a5301c183c9d071f4003b5e0259f2 2676 devel optional intellij-idea-community_2017.2.3-1.debian.tar.xz
+ a7a5d59c1c1f3fff294b5f9143b09d82 8882 devel optional intellij-idea-community_2017.2.3-1_all.deb
+ 566e75017631320674a21c9ac62cd7bb 5206 devel optional intellij-idea-community_2017.2.3-1_amd64.buildinfo
