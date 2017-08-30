@@ -13,7 +13,7 @@ function main {
     mv intellij-idea-community_{$old,$new}
     mv intellij-idea-community_{$old,$new}.orig.tar.gz
 
-    echo "intellij-idea-community ($new-1) yakkety; urgency=low
+    echo "intellij-idea-community ($new-1) artful; urgency=low
 
   * Upstream Version $new
 
