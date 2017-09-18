@@ -1,13 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: intellij-idea-community
-Source: https://github.com/mmk2410/intellij-idea-community
+Source: https://gitlab.com/mmk2410/intellij-idea-community
 
 Files: *
 Copyright: JetBrains s.r.o.
 License: Apache-2
 
 Files: debian/*
-Copyright: 2015 Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Copyright: 2015-2017 Marcel Kapfer <opensource@mmk2410.org> and contributors
 License: GPL-3+
 
 License: Apache-2
