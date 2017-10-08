@@ -13,10 +13,6 @@ function main {
     mv intellij-idea-community_{$old,$new}
     mv intellij-idea-community_{$old,$new}.orig.tar.gz
 
-    # 4. Edit README.md to update latest version number.
-    sed "s/$old/$new/g" ./README.md > ./README.md.tmp 
-    mv ./README.md.tmp ./README.md
-
     echo "intellij-idea-community ($new-1) artful; urgency=low
 
   * Upstream Version $new
