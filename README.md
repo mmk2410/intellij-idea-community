@@ -11,6 +11,10 @@ sudo apt-get update
 sudo apt-get install intellij-idea-community
 ```
 
+## Report issues
+
+Please report any issues at [phab.mmk2410.org](https://phab.mmk2410.org/maniphest/task/edit/form/3/). The current issues are also listed [there](https://phab.mmk2410.org/maniphest/query/J9cHtqRh7M5n/).
+
 ## Updating the package
 
 To update the version follow these steps. Replace all instances of `[year].[major].[minor]` with the new version numbers (e.g., 2017.2.5++).
@@ -88,10 +92,10 @@ To update the version follow these steps. Replace all instances of `[year].[majo
 
  16. Create new pull request
 
-## Automatically do steps 2 to 12
+### Automatically do steps 2 to 12
 
 Run `./update-new-version.sh 2017.2.5 [year].[major].[minor]`
 
-## Setting up the build environment
+### Setting up the build environment
 
 Run `sudo apt install devscripts debhelper`.
