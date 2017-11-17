@@ -1,7 +1,7 @@
 # intellij-idea-community
 .deb Packages of IntelliJ IDEA Community Edition for Ubuntu
 
-The latest upstream version is 2017.2.5 which is included in the package version 2017.2.5.
+The latest upstream version is 2017.2.6 which is included in the package version 2017.2.6.
 
 ## Adding the ppa to Ubuntu
 
@@ -17,7 +17,7 @@ Please report any issues at [phab.mmk2410.org](https://phab.mmk2410.org/maniphes
 
 ## Updating the package
 
-To update the version follow these steps. Replace all instances of `[year].[major].[minor]` with the new version numbers (e.g., 2017.2.5++).
+To update the version follow these steps. Replace all instances of `[year].[major].[minor]` with the new version numbers (e.g., 2017.2.6++).
 
  1. Fork the repo
  2. Create your own feature branch
@@ -29,8 +29,8 @@ To update the version follow these steps. Replace all instances of `[year].[majo
  3. Rename the following
 
  ```
- mv intellij-idea-community_2017.2.5 intellij-idea-community_[year].[major].[minor]
- mv intellij-idea-community_2017.2.5.orig.tar.gz intellij-idea-community_[year].[major].[minor].orig.tar.gz
+ mv intellij-idea-community_2017.2.6 intellij-idea-community_[year].[major].[minor]
+ mv intellij-idea-community_2017.2.6.orig.tar.gz intellij-idea-community_[year].[major].[minor].orig.tar.gz
  ```
 
  4. Edit the README.md and update the version numbers
@@ -66,7 +66,7 @@ To update the version follow these steps. Replace all instances of `[year].[majo
  11. Remove the old files
 
  ```
- rm intellij-idea-community_2017.2.5-1*
+ rm intellij-idea-community_2017.2.6-1*
  ```
 
  12. Install the package to test it
@@ -94,7 +94,7 @@ To update the version follow these steps. Replace all instances of `[year].[majo
 
 ### Automatically do steps 2 to 12
 
-Run `./update-new-version.sh 2017.2.5 [year].[major].[minor]`
+Run `./update-new-version.sh 2017.2.6 [year].[major].[minor]`
 
 ### Setting up the build environment
 
