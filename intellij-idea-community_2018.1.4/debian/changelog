@@ -1,3 +1,9 @@
+intellij-idea-community (2018.1.4-1) bionic; urgency=medium
+
+  * Upstream version 2018.1.4
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Fri, 25 May 2018 23:37:24 +0200
+
 intellij-idea-community (2018.1-1) artful; urgency=medium
 
   * Upstream version 2018.1
@@ -9,13 +15,13 @@ intellij-idea-community (2017.3.5-1) artful; urgency=low
   * Upstream Version 2017.3.5
 
  -- Marcel Kapfer (mmk2410) <opensource@mmk2410.org>  Wed, 14 Mar 2018 12:00:42 +0100
- 
+
 intellij-idea-community (2017.3.4-1) artful; urgency=low
 
   * Upstream Version 2017.3.4
 
  -- Marcel Kapfer (mmk2410) <opensource@mmk2410.org>  Wed, 31 Jan 2018 11:05:53 +0000
- 
+
 intellij-idea-community (2017.3.3-1) artful; urgency=low
 
   * Upstream Version 2017.3.3
@@ -27,37 +33,37 @@ intellij-idea-community (2017.3-1) artful; urgency=low
   * Upstream Version 2017.3
 
  -- Marcel Kapfer (mmk2410) <opensource@mmk2410.org>  Fri, 01 Dec 2017 07:17:15 +0000
- 
+
 intellij-idea-community (2017.2.6-1) artful; urgency=low
 
   * Upstream Version 2017.2.6
 
  -- Marcel Kapfer (mmk2410) <opensource@mmk2410.org>  Fri, 17 Nov 2017 05:38:12 +0000
- 
+
 intellij-idea-community (2017.2.5-1) artful; urgency=low
 
   * Upstream Version 2017.2.5
 
  -- Marcel Kapfer (mmk2410) <opensource@mmk2410.org>  Thu, 28 Sep 2017 08:49:17 +0200
- 
+
 intellij-idea-community (2017.2.4-1) artful; urgency=low
 
   * Upstream Version 2017.2.4
 
  -- Bart de Koning (bratdaking) <bratdaking@gmail.com>  Thu, 14 Sep 2017 13:35:28 +0200
- 
+
 intellij-idea-community (2017.2.3-1) artful; urgency=low
 
   * Upstream Version 2017.2.3
 
  -- Bart de Koning (bratdaking) <bratdaking@gmail.com>  Wed, 30 Aug 2017 11:39:30 +0200
- 
+
 intellij-idea-community (2017.1.5-1) yakkety; urgency=low
 
   * Upstream Version 2017.1.5
 
  -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@gmail.com>  Wed, 12 Jul 2017 18:51:50 +0200
- 
+
 intellij-idea-community (2017.1.4-1) zesty; urgency=low
 
   * Upstream Version 2017.1.4
@@ -111,19 +117,19 @@ intellij-idea-community (2016.3.1-1) yakkety; urgency=low
   * Upstream Version 2016.3.1
 
  -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>  Tue, 13 Dec 2016 21:13:17 +0100
- 
+
 intellij-idea-community (2016.3-1) yakkety; urgency=low
 
   * Upstream Version 2016.3
 
  -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>  Thu, 24 Nov 2016 21:21:17 +0100
- 
+
 intellij-idea-community (2016.2.5-1) yakkety; urgency=low
 
   * Upstream Version 2016.2.5
 
  -- Andy Balaam (andybalaam) <mail@artificialworlds.net>  Thu, 20 Oct 2016 09:27:23 +0100
- 
+
 intellij-idea-community (2016.2.4-1) yakkety; urgency=low
 
   * Upstream Version 2016.2.4
