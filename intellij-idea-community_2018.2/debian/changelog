@@ -1,3 +1,9 @@
+intellij-idea-community (2018.2) bionic; urgency=medium
+
+  * Upstream version 2018.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Tue, 31 Jul 2018 20:37:24 +0200
+
 intellij-idea-community (2018.1.4-1) bionic; urgency=medium
 
   * Upstream version 2018.1.4
