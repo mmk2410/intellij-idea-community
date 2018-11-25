@@ -8,7 +8,7 @@ Standards-Version: 4.2.1
 Package: intellij-idea-community
 Architecture: all
 Pre-Depends: wget,
-	     unzip
+	     tar
 Depends: libxrender1,
 	 libxtst6,
 	 libxi6,
