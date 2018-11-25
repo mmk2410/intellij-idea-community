@@ -5,7 +5,7 @@
 # The script intends to decrease the effort of updating the package.
 
 PACKAGE="intellij-idea-community"
-DISTRIBUTION="bionic"
+DISTRIBUTION="cosmic"
 
 main() {
     old="$1"
