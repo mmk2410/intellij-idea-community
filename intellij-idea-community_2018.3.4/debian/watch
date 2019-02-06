@@ -1,2 +1,4 @@
 version=4
-https://confluence.jetbrains.com/collector/pages.action?key=IDEADEV .*/display/IDEADEV/IntelliJ\+IDEA\+(\d+)\.(\d+)\.(\d+)\+Release\+Notes
+opts="searchmode=plain" \
+https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release \
+https://download.jetbrains.com/idea/ideaIC-(\d[\d\.]*).tar.gz
