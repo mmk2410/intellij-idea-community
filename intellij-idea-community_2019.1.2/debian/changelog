@@ -1,3 +1,9 @@
+intellij-idea-community (2019.1.2-1) disco; urgency=medium
+
+  * Upstream version 2019.1.2
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Thu, 16 May 2019 07:13:53 +0000
+
 intellij-idea-community (2019.1.1-1) cosmic; urgency=medium
 
   * Upstream version 2019.1.1
