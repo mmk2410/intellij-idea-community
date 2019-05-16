@@ -1,41 +1,39 @@
-#!/bin/bash
-function main {
-    local old=$1
-    local new=$2
-    local now=`date -R`
-    local author=`git config --get user.name`
-    local email=`git config --get user.email`
-    local username=`git config --get remote.origin.url | sed 's,.*:\(.*\)/.*,\1,'`
-    local tempfile=`tempfile`
+#!/bin/sh
 
-    git checkout -b version-$new
+# This script intends to decrease the effort of updating the package.
 
-    mv intellij-idea-community_{$old,$new}
-    mv intellij-idea-community_{$old,$new}.orig.tar.gz
+PACKAGE="intellij-idea-community"
+DISTRIBUTION="disco"
 
-    # 4. Edit README.md to update latest version number.
-    sed "s/$old/$new/g" ./README.md > ./README.md.tmp 
-    mv ./README.md.tmp ./README.md
+main() {
+    old="$1"
+    new="$2"
+    name="$(git config --get user.name)"
+    email="$(git config --get user.email)"
 
-    echo "intellij-idea-community ($new-1) artful; urgency=low
+    git checkout -b version-"$new"
 
-  * Upstream Version $new
+    mv "$PACKAGE"_"$old" "$PACKAGE"_"$new"
+    mv "$PACKAGE"_"$old".orig.tar.gz "$PACKAGE"_"$new".orig.tar.gz
 
- -- $author ($username) <$email>  $now
- " >> $tempfile
+    cd "$PACKAGE"_"$new" || exit
 
-    cat intellij-idea-community_$new/debian/changelog >> $tempfile
-    mv $tempfile intellij-idea-community_$new/debian/changelog
+    # Update the debian/changelog file with dch
+    NAME="$name" EMAIL="$email" dch \
+	--newversion "$new"-1 \
+	--distribution "$DISTRIBUTION" \
+	"Upstream version $new"
 
-    sed -i "s/$old/$new/g" intellij-idea-community_$new/debian/preinst
+    sed -i "s/$old/$new/g" ./debian/preinst
 
-    (cd intellij-idea-community_$new/ && debuild -us -uc )
+    debuild -us -uc
 
-    rm intellij-idea-community_${old}*
+    cd ..
 
-    sudo dpkg -i intellij-idea-community_$new-1_all.deb
+    rm "$PACKAGE"_"$old"-*
+
+    # disabled until it is only called with an specific argument
+    # sudo dpkg -i "$PACKAGE"_"$new"-1_all.deb
 }
 
-
-
-main $1 $2
+main "$1" "$2"
