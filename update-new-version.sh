@@ -6,7 +6,7 @@ PACKAGE="intellij-idea-community"
 DISTRIBUTION="disco"
 
 main() {
-    last_tag=$(git describe --tags)
+    last_tag=$(git describe --abbrev=0 --tags)
     old="${last_tag#?}"
     new="$1"
     name="$(git config --get user.name)"
