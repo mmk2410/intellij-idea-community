@@ -94,7 +94,9 @@ To update the version follow these steps. Replace all instances of `[year].[majo
 
 ### Automatically do steps 2 to 12
 
-Run `./update-new-version.sh 2017.3 [year].[major].[minor]`
+Run `./update-new-version.sh "$new-version"`
+
+Where `$new-version` is in the format `[year].[major].[minor]`.
 
 ### Setting up the build environment
 
