@@ -1,9 +1,10 @@
 # intellij-idea-community
+
 .deb Packages of IntelliJ IDEA Community Edition for Ubuntu
 
-The latest upstream version is 2017.3 which is included in the package version 2017.3.
+I also provide a package for the [Ultimate Edition](https://gitlab.com/mmk2410/intellij-idea-ultimate).
 
-## Adding the ppa to Ubuntu
+## Adding the PPA (on Ubuntu)
 
 ```
 sudo apt-add-repository ppa:mmk2410/intellij-idea
@@ -13,9 +14,25 @@ sudo apt-get install intellij-idea-community
 
 ## Report issues
 
-You can report issues, questions or feedback here on GitLab. Please include which version your using.
+You can report issues, questions or feedback concerning the package here on GitLab. Please include which version your using.
 
 ## Updating the package
+
+To update the package the first you need to do is to set up your build environment. After that there are two ways: an automated way (which is highly preferred) and a manual way.
+
+### Setting up the build environment
+
+Run `sudo apt install build-dep debhelper`.
+
+It is also necessary to setup Git with your username and email address as explained in numerous tutorials.
+
+### The automated way
+
+Run `./update-new-version.sh "$new-version"`
+
+Where `$new-version` is in the format `[year].[major].[minor]`.
+
+### The manual way
 
 To update the version follow these steps. Replace all instances of `[year].[major].[minor]` with the new version numbers (e.g., 2017.3++).
 
@@ -91,13 +108,3 @@ To update the version follow these steps. Replace all instances of `[year].[majo
  ```
 
  16. Create new pull request
-
-### Automatically do steps 2 to 12
-
-Run `./update-new-version.sh "$new-version"`
-
-Where `$new-version` is in the format `[year].[major].[minor]`.
-
-### Setting up the build environment
-
-Run `sudo apt install devscripts debhelper`.
