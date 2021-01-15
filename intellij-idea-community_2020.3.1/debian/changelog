@@ -1,3 +1,9 @@
+intellij-idea-community (2020.3.1-1) groovy; urgency=medium
+
+  * Upstream version 2020.3.1
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Fri, 15 Jan 2021 23:01:35 +0000
+
 intellij-idea-community (2020.3-1) groovy; urgency=medium
 
   * Upstream version 2020.3
