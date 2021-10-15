@@ -1,3 +1,9 @@
+intellij-idea-community (2021.2.3-1) impish; urgency=medium
+
+  * Upstream version 2021.2.3
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Fri, 15 Oct 2021 18:06:03 +0000
+
 intellij-idea-community (2021.2.2-1) hirsute; urgency=medium
 
   * Upstream version 2021.2.2
