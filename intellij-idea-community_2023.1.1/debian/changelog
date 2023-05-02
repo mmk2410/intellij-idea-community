@@ -1,3 +1,9 @@
+intellij-idea-community (2023.1.1-1) kinetic; urgency=medium
+
+  * Upstream version 2023.1.1
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Tue, 02 May 2023 14:59:15 +0000
+
 intellij-idea-community (2023.1-1) kinetic; urgency=medium
 
   * Upstream version 2023.1
