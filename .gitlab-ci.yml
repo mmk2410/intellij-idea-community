@@ -1,5 +1,5 @@
 default:
-    image: ubuntu:kinetic
+    image: ubuntu:lunar
 
 variables:
     PACKAGE: "intellij-idea-community"
