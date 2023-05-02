@@ -2,7 +2,7 @@ Source: intellij-idea-community
 Section: devel
 Priority: optional
 Maintainer: Marcel Kapfer <opensource@mmk2410.org>
-Build-Depends: debhelper (>= 11)
+Build-Depends: debhelper-compat (= 9)
 Standards-Version: 4.2.1
 
 Package: intellij-idea-community
