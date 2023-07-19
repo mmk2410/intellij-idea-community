@@ -21,10 +21,10 @@ old="${last_tag#?}"
 
 if [ "$1" = "--autoupdate" ]; then
     new="$2"
-    autogit="y"
+    autoupdate="y"
 else
     new="$1"
-    autogit="n"
+    autoupdate="n"
 fi
 
 name="$(git config --get user.name)"
@@ -52,7 +52,7 @@ cd ..
 
 rm "$PACKAGE"_"$old"-*
 
-if [ "$autogit" = "n" ]; then
+if [ "$autoupdate" = "n" ]; then
     exit
 fi
 
