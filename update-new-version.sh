@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # This script intends to decrease the effort of updating the package.
+#
+# Passing "--autoupdate" as first argument triggers automatic Git operations.
 
 set -euo pipefail
 
@@ -16,7 +18,15 @@ DISTRIBUTION="lunar"
 
 last_tag=$(git describe --abbrev=0 --tags)
 old="${last_tag#?}"
-new="$1"
+
+if [ "$1" = "--autoupdate" ]; then
+    new="$2"
+    autogit="y"
+else
+    new="$1"
+    autogit="n"
+fi
+
 name="$(git config --get user.name)"
 email="$(git config --get user.email)"
 
@@ -41,3 +51,14 @@ debuild -us -uc
 cd ..
 
 rm "$PACKAGE"_"$old"-*
+
+if [ "$autogit" = "n" ]; then
+    exit
+fi
+
+git switch main
+git merge --ff-only version-"$new"
+git push origin main
+
+git tag -s v"$new" "Upstream version $new"
+git push --tags origin main
