@@ -56,6 +56,9 @@ if [ "$autoupdate" = "n" ]; then
     exit
 fi
 
+git add -A
+git commit -m "Upstream version $new"
+
 git switch main
 git merge --ff-only version-"$new"
 git push origin main
