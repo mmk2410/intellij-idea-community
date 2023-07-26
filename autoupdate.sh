@@ -5,7 +5,10 @@ set -euo pipefail
 dir="$(find . -maxdepth 1 -type d -name "intellij-idea-*")"
 pushd "$dir" || exit 1
 
+set +e
 check="$(uscan --dehs --no-download)"
+set -e
+
 status="$(echo "$check" | xmllint --xpath 'string(/dehs/status)' -)"
 
 if [[ "$status" != "newer package available" ]]; then
