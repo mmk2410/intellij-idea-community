@@ -17,7 +17,7 @@ new_version="$(echo "$check" | xmllint --xpath 'string(/dehs/upstream-version)' 
 
 popd
 
-./update-new-version.sh --autoupdate "$new_version"
+./update-new-version.sh "$new_version"
 
 git add -A
 git commit -m "Upstream version $new_version"
