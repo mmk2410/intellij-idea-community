@@ -18,3 +18,13 @@ new_version="$(echo "$check" | xmllint --xpath 'string(/dehs/upstream-version)' 
 popd
 
 ./update-new-version.sh --autoupdate "$new_version"
+
+git add -A
+git commit -m "Upstream version $new_version"
+
+git switch main
+git merge --ff-only version-"$new_version"
+git push origin main
+
+git tag -a v"$new_version" -m "Upstream version $new_version"
+git push --tags origin main
