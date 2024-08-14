@@ -5,13 +5,13 @@ set -e
 cd /opt/
 
 ## Extract the package
-tar xf /opt/ideaIC-2024.2.tar.gz
+tar xf /opt/ideaIC-2024.2.0.1.tar.gz
 
 ## Rename the directory
 mv /opt/idea-IC-* /opt/intellij-idea-community
 
 ## Remove  the tar.gz package
-rm /opt/ideaIC-2024.2.tar.gz
+rm /opt/ideaIC-2024.2.0.1.tar.gz
 
 ## Install the .desktop file, if necessary
 if [ -x "/usr/bin/desktop-file-install" ]; then
