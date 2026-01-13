@@ -1,3 +1,9 @@
+intellij-idea-community (2025.2.6.1-1) questing; urgency=medium
+
+  * Upstream version 2025.2.6.1
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Tue, 13 Jan 2026 14:03:57 +0000
+
 intellij-idea-community (2025.2.6-1) questing; urgency=medium
 
   * Upstream version 2025.2.6
